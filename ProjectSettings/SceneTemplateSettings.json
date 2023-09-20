@@ -4,118 +4,256 @@
         {
             "userAdded": false,
             "type": "UnityEngine.AnimationClip",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEditor.Animations.AnimatorController",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.AnimatorOverrideController",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEditor.Audio.AudioMixerController",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.ComputeShader",
+<<<<<<< HEAD
             "defaultInstantiationMode": 1
+=======
+            "ignore": true,
+            "defaultInstantiationMode": 1,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.Cubemap",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.GameObject",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEditor.LightingDataAsset",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": false
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.LightingSettings",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.Material",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEditor.MonoScript",
+<<<<<<< HEAD
             "defaultInstantiationMode": 1
+=======
+            "ignore": true,
+            "defaultInstantiationMode": 1,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.PhysicMaterial",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.PhysicsMaterial2D",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.Rendering.PostProcessing.PostProcessProfile",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.Rendering.PostProcessing.PostProcessResources",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.Rendering.VolumeProfile",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEditor.SceneAsset",
+<<<<<<< HEAD
             "defaultInstantiationMode": 1
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 1,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.Shader",
+<<<<<<< HEAD
             "defaultInstantiationMode": 1
+=======
+            "ignore": true,
+            "defaultInstantiationMode": 1,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.ShaderVariantCollection",
+<<<<<<< HEAD
             "defaultInstantiationMode": 1
+=======
+            "ignore": true,
+            "defaultInstantiationMode": 1,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.Texture",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.Texture2D",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         },
         {
             "userAdded": false,
             "type": "UnityEngine.Timeline.TimelineAsset",
+<<<<<<< HEAD
             "defaultInstantiationMode": 0
+=======
+            "ignore": false,
+            "defaultInstantiationMode": 0,
+            "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
         }
     ],
     "defaultDependencyTypeInfo": {
         "userAdded": false,
         "type": "<default_scene_template_dependencies>",
+<<<<<<< HEAD
         "defaultInstantiationMode": 1
+=======
+        "ignore": false,
+        "defaultInstantiationMode": 1,
+        "supportsModification": true
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
     },
     "newSceneOverride": 0
 }
