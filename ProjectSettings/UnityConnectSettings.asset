@@ -23,6 +23,10 @@ UnityConnectSettings:
     m_Enabled: 0
     m_TestMode: 0
     m_InitializeOnStartup: 1
+<<<<<<< HEAD
+    m_PackageRequiringCoreStatsPresent: 0
+=======
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
   UnityAdsSettings:
     m_Enabled: 0
     m_InitializeOnStartup: 1

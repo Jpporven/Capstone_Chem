@@ -27,4 +27,8 @@ EditorSettings:
   m_EnterPlayModeOptions: 3
   m_ShowLightmapResolutionOverlay: 1
   m_UseLegacyProbeSampleCount: 0
+<<<<<<< HEAD
   m_SerializeInlineMappingsOnOneLine: 1
+=======
+  m_SerializeInlineMappingsOnOneLine: 1
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
