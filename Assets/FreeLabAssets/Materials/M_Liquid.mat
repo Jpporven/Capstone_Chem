@@ -4,9 +4,20 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+<<<<<<< HEAD
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+=======
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
+>>>>>>> 6fa6fcb05b50f426cfceca41de492498e939a65a
   m_Name: M_Liquid
   m_Shader: {fileID: 4800000, guid: d6fdb76b4397c4f3b8da322fc1a2716e, type: 3}
   m_ShaderKeywords: 
@@ -102,4 +113,11 @@ Material:
     - _Color2: {r: 1, g: 0.2509804, b: 0.8862745, a: 1}
     - _Color3: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+<<<<<<< HEAD
   m_BuildTextureStacks: []
+=======
+<<<<<<< HEAD
+=======
+  m_BuildTextureStacks: []
+>>>>>>> 78a22b37bcb748de705eb77b7d3a89c007d3a4e2
+>>>>>>> 6fa6fcb05b50f426cfceca41de492498e939a65a
