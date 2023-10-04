@@ -1,31 +1,18 @@
-A Few Things To Keep In Mind When Pushing Your Changes       
--
-   - Always checkout your branch before you push
+# VR-Game-Jam-Template
+ Starter Project using Unity XR Toolkit created for VR Jam 2023
 
+# Learn More About This Project
+[<img src="https://i.ytimg.com/vi/apnfGuMI0Dc/maxresdefault.jpg" width="50%">](https://youtu.be/apnfGuMI0Dc)
 
+https://youtu.be/apnfGuMI0Dc
 
-  The command for this:           
-|-------------------------|
-      git checkout your_name      
+# External Ressources
+This project uses a combination of these assets and tutorials :
 
+https://youtu.be/6OT43pvUyfY
 
-Looking For Your Branch     
--
-  The command for this:           
-|-------------------------|
-      git branch -a          
+https://youtu.be/JCyJ26cIM0Y
 
+https://kenney.nl/assets?q=audio
 
-
-           
-Want Your Branch To Be  Merged?             
----------------------------------
-
- Ask your team lead and they will
- check if there are no errors in 
- your pushed project, then merge your changes to the main branch.
-
-
-What Does Merging Mean?     
----------------------------------
- Merging is when a branch's changes are implemented into the main branch.                    
+https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples
