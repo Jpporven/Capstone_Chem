@@ -189,6 +189,11 @@ MonoBehaviour:
   timeText: {fileID: 8116945452154700827}
   startTime: 1800
   time: 0
+  Menu: {fileID: 0}
+  twentyMinutesLeftDialogue: {fileID: 0}
+  tenMinutesLeftDialogue: {fileID: 0}
+  fiveMinutesLeftDialogue: {fileID: 0}
+  noMinutesLeftDialogue: {fileID: 0}
 --- !u!1001 &8508832396407835747
 PrefabInstance:
   m_ObjectHideFlags: 0
