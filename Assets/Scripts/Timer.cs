@@ -11,10 +11,22 @@ public class Timer : MonoBehaviour
     public float startTime = 1800;
     public float time;
 
+    public GameObject Menu;
+
+    public GameObject twentyMinutesLeftDialogue;
+    public GameObject tenMinutesLeftDialogue;
+    public GameObject fiveMinutesLeftDialogue;
+    public GameObject noMinutesLeftDialogue;
+
     // Start is called before the first frame update
     void Start()
     {
         time = startTime;
+        Menu.SetActive(false);
+        twentyMinutesLeftDialogue.SetActive(false);
+        tenMinutesLeftDialogue.SetActive(false);
+        fiveMinutesLeftDialogue.SetActive(false);
+        noMinutesLeftDialogue.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,9 +36,42 @@ public class Timer : MonoBehaviour
         {
             time -= Time.deltaTime;
         }
-        else
+
+        if(time == 1200)
+        {
+            twentyMinutesLeftDialogue.SetActive(true);
+            
+        }
+
+        if (time == 1997)
+        {
+            twentyMinutesLeftDialogue.SetActive(false);
+        }
+
+        if (time == 600)
+        {
+            tenMinutesLeftDialogue.SetActive(true);
+        }
+
+        if (time == 597)
+        {
+            tenMinutesLeftDialogue.SetActive(false);
+        }
+
+        if (time == 300)
+        {
+            fiveMinutesLeftDialogue.SetActive(true);
+        }
+
+        if (time == 297)
+        {
+            fiveMinutesLeftDialogue.SetActive(false);
+        }
+
+        if (time <= 0)
         {
             time = 0;
+            noMinutesLeftDialogue.SetActive(true);
         }
         Displaytime(time);
     }
@@ -36,6 +81,7 @@ public class Timer : MonoBehaviour
         if (time < 0) 
         {
             timeDisplay = 0;
+            Menu.SetActive(true);
         }
 
         float minutes = Mathf.FloorToInt(timeDisplay / 60);
