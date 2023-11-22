@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.17276797, g: 0.21589167, b: 0.29782546, a: 1}
+  m_IndirectSpecularColor: {r: 0.17276844, g: 0.21589246, b: 0.2978263, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -166,6 +166,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1961373023}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &131208436 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4958066177068311011, guid: 7415f28ae303170438edca1a74f04c2a,
+    type: 3}
+  m_PrefabInstance: {fileID: 299710765}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &214866431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,6 +1711,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 307191544589358958, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 131208436}
+    - target: {fileID: 672915589150624793, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 131208436}
+    - target: {fileID: 3405067239842723556, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 131208436}
+    - target: {fileID: 3705822783360799332, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 131208436}
+    - target: {fileID: 3852269435542694867, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 131208436}
     - target: {fileID: 4199210468275731610, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
         type: 3}
       propertyPath: m_RootOrder
@@ -1754,11 +1791,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4539965256841646961, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 131208436}
+    - target: {fileID: 5504562989894388506, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 131208436}
+    - target: {fileID: 6856590107901860071, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 131208436}
     - target: {fileID: 7108635504842090311, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
         type: 3}
       propertyPath: m_Name
       value: Tutorial
       objectReference: {fileID: 0}
+    - target: {fileID: 8829634896200599814, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 131208436}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
