@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: 49731caed2f0d40a2af6ccc4814f63da
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base1
+    second: {fileID: 2100000, guid: 24bef110d633842c7ae9b50c59fa7bb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottom_part
+    second: {fileID: 2100000, guid: aa4bec579050444d2b49cb09a8665e25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bunsen_tube_base
+    second: {fileID: 2100000, guid: 2f5be9f6eefe54c4db370518ae8f84c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bunsen_tube_end
+    second: {fileID: 2100000, guid: 0d20dcd912a394db1bcebdbc3a657326, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bunsen_tube_mid
+    second: {fileID: 2100000, guid: ed28d959ee9ed4176b9d9bdb94559ccd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: long_part
+    second: {fileID: 2100000, guid: 88db6a27dbcbb4ff9ad83065a8dda269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: middle_part
+    second: {fileID: 2100000, guid: 8ab2614abdc414bbaa695d66446cd724, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: octagon
+    second: {fileID: 2100000, guid: 56f0f53821d584bb8af645485e7345a9, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: base_high_standardSurface1_BaseColor
+    second: {fileID: 2800000, guid: 3e81999c35af24faf9e336d73e28e327, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: base_high_standardSurface1_Metallic
+    second: {fileID: 2800000, guid: 735e6b3109cde44eeb57a0068400cb5e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: base_high_standardSurface1_Normal
+    second: {fileID: 2800000, guid: cd39997dca884456e8387286e4006192, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: base_high_standardSurface1_Roughness
+    second: {fileID: 2800000, guid: 17681fe94ee994743b485b84b3388a72, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bottom_part_standardSurface1_BaseColor
+    second: {fileID: 2800000, guid: 79e36e756fdeb44119a2f16cc8db1ee6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bottom_part_standardSurface1_Metallic
+    second: {fileID: 2800000, guid: 5c20fb60847ea4ed3af8b3fb9737c64b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bottom_part_standardSurface1_Normal
+    second: {fileID: 2800000, guid: 15b17c41f0d624d4dae183a1479643e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bottom_part_standardSurface1_Roughness
+    second: {fileID: 2800000, guid: 61775196b32ec4b60b54eab62575fb0b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bunsen_tube_bunsen_tube_base_BaseColor
+    second: {fileID: 2800000, guid: afa30473534e44ee7a71a8f22486234b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bunsen_tube_bunsen_tube_base_Metallic
+    second: {fileID: 2800000, guid: e698ed24521f7499ba3ba550abf5c16b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bunsen_tube_bunsen_tube_base_Normal
+    second: {fileID: 2800000, guid: 472cf6ca6225c4b4ebcf5ba0cb00e434, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bunsen_tube_bunsen_tube_base_Roughness
+    second: {fileID: 2800000, guid: 07545bfbf26ef490cb682be25435e27f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bunsen_tube_bunsen_tube_end_BaseColor
+    second: {fileID: 2800000, guid: 259878b3de497468bb971f01537b50fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bunsen_tube_bunsen_tube_end_Metallic
+    second: {fileID: 2800000, guid: 80f76127d5afe462c86554425080c9f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bunsen_tube_bunsen_tube_end_Normal
+    second: {fileID: 2800000, guid: 0bb674a98b89f4201b24f145a9ef0650, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bunsen_tube_bunsen_tube_mid_BaseColor
+    second: {fileID: 2800000, guid: 56dcb9876d026487da8630f95d5f6b95, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bunsen_tube_bunsen_tube_mid_Metallic
+    second: {fileID: 2800000, guid: d43977bea1d224c3a8804dd3ae7680a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bunsen_tube_bunsen_tube_mid_Normal
+    second: {fileID: 2800000, guid: ba8d669812fb94ed19c67af0a7892591, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bunsen_tube_bunsen_tube_mid_Roughness
+    second: {fileID: 2800000, guid: 002066367ba7b4f4c8843fe203edbba8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: long_part_standardSurface1_BaseColor
+    second: {fileID: 2800000, guid: d4d9810cefd4d4da081ba30a062bc32e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: long_part_standardSurface1_Metallic
+    second: {fileID: 2800000, guid: 48d241c57bcd8430783603f908c20e47, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: long_part_standardSurface1_Normal
+    second: {fileID: 2800000, guid: 5a964c21c2a98476e84890cf3f7415ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: long_part_standardSurface1_Roughness
+    second: {fileID: 2800000, guid: 6fbb84f97cd5040eaa7e59fe0181f388, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: middle_part_standardSurface1_BaseColor
+    second: {fileID: 2800000, guid: df0f6a74011044eacaed2dce1d572912, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: middle_part_standardSurface1_Metallic
+    second: {fileID: 2800000, guid: 18f0eb56608cf4c1da0098d4aa156590, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: middle_part_standardSurface1_Normal
+    second: {fileID: 2800000, guid: 2f0e63665152742d19d26fea72a64636, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: middle_part_standardSurface1_Roughness
+    second: {fileID: 2800000, guid: 1edd3cbe6f8f547469f40ced795bbb2b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: octagon_part_standardSurface1_BaseColor
+    second: {fileID: 2800000, guid: 6791d4423abac4734bd4080594325418, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: octagon_part_standardSurface1_Metallic
+    second: {fileID: 2800000, guid: c4c531729c31347f288c7917cfadbf6b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: octagon_part_standardSurface1_Normal
+    second: {fileID: 2800000, guid: 99e7feef01e6047919a6b414ed98e6e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: octagon_part_standardSurface1_Roughness
+    second: {fileID: 2800000, guid: bc294a7732c0f467887599d73c3db023, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
