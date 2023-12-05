@@ -1,0 +1,457 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &117242422184684300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 429605780982018318}
+  - component: {fileID: 2218838185567739082}
+  - component: {fileID: 1832019774398382776}
+  m_Layer: 5
+  m_Name: Subtitle Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &429605780982018318
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117242422184684300}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8318095146195072039}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -150}
+  m_SizeDelta: {x: 700, y: 55}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2218838185567739082
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117242422184684300}
+  m_CullTransparentMesh: 1
+--- !u!114 &1832019774398382776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117242422184684300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 3
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 2
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &8657409922531174343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2837806701975907819}
+  - component: {fileID: 6922555099949553633}
+  - component: {fileID: 6631730522864147201}
+  - component: {fileID: 7546767379337945941}
+  m_Layer: 5
+  m_Name: Subtitles Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2837806701975907819
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8657409922531174343}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8318095146195072039}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6922555099949553633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8657409922531174343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dacfd6683b30bfe46b17452f135018b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sentenceText: {fileID: 1832019774398382776}
+  textTypeSpeed: 0.05
+  sentencePause: 1
+--- !u!114 &6631730522864147201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8657409922531174343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174ef47dc2043b24099525e77e3dbae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 0}
+  flourineCheck: 0
+  chlorineCheck: 0
+  checkboth: 0
+  quickClearCheck: 1
+  missdentifiedOnceCheck: 0
+  opening:
+    sentences:
+    - 'Hello there. It seems that you''ve been selected to become our newest Peer
+      Academic Leader, or Pal for short, haha. '
+    - 'In order to be accepted as our new Pal, we will put your chemistry knowledge
+      to the test, and what better way than an Escape Room! '
+    - "You\u2019ll need to escape two rooms within 30 minutes in order to successfully
+      become our newest Pal, seems easy enough, right?\u201D\r"
+    - "Before we begin, you might not be too familiar with how things go around here,
+      since it\u2019s your first time, allow me to help you."
+    - Use your left joystick to move around, you'll be doing that a lot around here.
+      Tilt your head to look around your surroundings, try not to trip on anything.
+    - Your right joystick lets you look around too, not as reliable as moving that
+      noggin of yours yea?
+    - Use either the left or right triggers on your controllers to grab or let go
+      of anything within the lab rooms. Try grabbing that ball and just throwing
+      it.
+    - Alright, you seem to be comfortable with how this will go, time for the main
+      event!
+  lv1Enter:
+    sentences:
+    - "Here in the first room, your task will be to find the missing 10 elements
+      that aren\u2019t showing up in the periodic table you see before you."
+    - There are many tools and hints that will help you in solving these tasks. Once
+      you correctly identify the element using my special machine, you bring its
+      symbol to the periodic table.
+    - "Bring them all and you\u2019ll move on to the second room. I\u2019ll touch
+      on that room more when you get there, for now, good luck with the first room!"
+    - ' Oh, did I forget to mention that your timer started the moment you entered
+      the room? Now you know! (laughs).'
+  minLeft20Lv1:
+    sentences:
+    - "You\u2019ve got 20 minutes!! Here I thought you could set a new record..."
+  minLeft10Lv1:
+    sentences:
+    - "You\u2019ve got 10 minutes, If you\u2019re quick enough, you could at least
+      try the second room!"
+  minLeft5Lv1:
+    sentences:
+    - "I don\u2019t mean to alarm you, but you\u2019ve only got 5 minutes and a dream
+      to beat this room and the next one."
+  minLeft0Lv1:
+    sentences:
+    - "TIMES UP! Sorry to say, but you unfortunately didn\u2019t get to escape in
+      time to become our new Pal. I do hope you return someday and give it a shot
+      again!"
+  minLeft20Lv2:
+    sentences:
+    - You were soooo close to making news on how fast you cleared this escape room,
+      bummer...
+  minLeft10Lv2:
+    sentences:
+    - 10 Minutes!! Think harder, think faster!!
+  minLeft5Lv2:
+    sentences:
+    - "5 Minutes left!! You\u2019re in the final stretch! Go Go Go!"
+  minLeft0Lv2:
+    sentences:
+    - "TIME\u2019S UP!!! Right at the finish line too, you may not be our newest
+      pal now, but you\u2019ll get it for sure the next time!"
+  lv1Clear:
+    sentences:
+    - You did it!! With some time to your name still, we can move onto the second
+      room, open that door while I explain your next task.
+    - "In the second room, you\u2019ll see a large table in front of you and in it,
+      a model of an atom with the name next to it. "
+    - 'You must be able to make it into an ion by adjusting the number of electrons
+      the model has. '
+    - "Once you correctly make an ion, the next one will be ready for you to make
+      immediately, it\u2019s as simple as it sounds. "
+    - 'If you make a mistake with the current atom, hit that button next to the model
+      to reset it back to how it was originally. '
+    - "Go now! Get to it, you\u2019re still on the clock ya know!"
+  lv2Clear:
+    sentences:
+    - "Congratulations!! You\u2019ve successfully completed our escape room! "
+    - "You\u2019re now officially our new Pal! Doesn\u2019t that feel nice, we\u2019re
+      happy to have you, especially when considering your knowledge regarding chemistry!"
+  normalClear:
+    sentences:
+    - Although you passed everything, there were some hidden feats that we hoped
+      that you would uncover,
+    - "they would\u2019ve came with cool badges just for you too, maybe another time
+      you can come back and earn those"
+  quickClear:
+    sentences:
+    - "I must say I\u2019m very impressed at the speed at which you did all of this,
+      although that speed did mean you missed out on a secret or two within the first"
+    - ' room, you still passed nonetheless, and earned a neat badge as well!'
+  normalClearHidden:
+    sentences:
+    - I would also like to say how im proud that you managed to find the hidden elements
+      within the first room, good job on that!
+    - "You\u2019ve earned a badge for finding them!"
+  quickClearHidden:
+    sentences:
+    - I would also like to say how im proud that you managed to find the hidden elements
+      within the first room, good job on that!
+    - "You\u2019ve earned a badge for finding them!"
+    - 'I would also like to acknowledge your feats in this escape room as well! '
+    - 'Identifying the two hidden elements within the first room, while also escaping
+      both rooms within 10 minutes? '
+    - "You\u2019ve well-earned these badges commemorating your accomplishments!"
+  findFlourine:
+    sentences:
+    - "Aahh, got a knack for finding secrets yea? Don\u2019t waste too much time
+      on identifying this now, you got the main course to worry about.\u201D"
+  findClorine:
+    sentences:
+    - "You might be thinking to yourself \u201COh what is this doing here?\u201D
+      don\u2019t worry about it, it\u2019s nothing, really, nothing at allll."
+  findBothHidden:
+    sentences:
+    - "You found my two hidden elements within this room! That\u2019ll earn you a
+      nice prize once this is all over, don\u2019t waste time now! Keep it going!"
+  flourineIdentified:
+    sentences:
+    - "Oohh look at you, my new Pal in the making!\r"
+  chlorineIdenified:
+    sentences: []
+  missdentified:
+    sentences:
+    - No hints for my little secrets, sorry!
+--- !u!65 &7546767379337945941
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8657409922531174343}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &8915854679300942889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8318095146195072039}
+  - component: {fileID: 532803974763537586}
+  - component: {fileID: 3324830991089309028}
+  - component: {fileID: 945741850322818715}
+  m_Layer: 5
+  m_Name: Subtitle Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8318095146195072039
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8915854679300942889}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2837806701975907819}
+  - {fileID: 429605780982018318}
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &532803974763537586
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8915854679300942889}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &3324830991089309028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8915854679300942889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!114 &945741850322818715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8915854679300942889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
