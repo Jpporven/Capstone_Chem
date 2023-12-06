@@ -261,7 +261,7 @@ public class AtomManager : MonoBehaviour
             Titles[0].SetActive(false);
             Titles[1].SetActive(false);
             Tabletext.gameObject.transform.localScale += new Vector3(0.05f, 0.05f, 0.05f);
-            Tabletext.text = "Congrats You've Beat it ";
+            Tabletext.text = "DEMO FINISHED ";
             AtomText.gameObject.SetActive(false);
         }
         /*

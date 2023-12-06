@@ -6,7 +6,7 @@ public class UnlockDoor : MonoBehaviour
 {
     public GameObject Door;
     Rigidbody Rigidbody;
-    bool locked = true;
+   
     // Start is called before the first frame update
     private void Awake()
     {

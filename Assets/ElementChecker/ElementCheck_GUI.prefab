@@ -124,7 +124,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3075722083683705002}
         m_TargetAssemblyTypeName: ElementCheck_Manager, Assembly-CSharp
-        m_MethodName: ClButton
+        m_MethodName: SButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -917,7 +917,7 @@ GameObject:
   - component: {fileID: 6858484059553626602}
   - component: {fileID: 2426528996194988498}
   m_Layer: 5
-  m_Name: S
+  m_Name: F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1028,7 +1028,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3075722083683705002}
         m_TargetAssemblyTypeName: ElementCheck_Manager, Assembly-CSharp
-        m_MethodName: SButton
+        m_MethodName: FButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2717,7 +2717,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cl
+  m_text: S
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2956,7 +2956,7 @@ RectTransform:
   - {fileID: 8181724530425096504}
   - {fileID: 686265636886212663}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3536,7 +3536,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: F
+  m_text: P
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3696,7 +3696,7 @@ GameObject:
   - component: {fileID: 6744865327720550962}
   - component: {fileID: 3513974036836135815}
   m_Layer: 5
-  m_Name: P
+  m_Name: Cl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3807,7 +3807,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3075722083683705002}
         m_TargetAssemblyTypeName: ElementCheck_Manager, Assembly-CSharp
-        m_MethodName: PButton
+        m_MethodName: ClButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4528,7 +4528,7 @@ GameObject:
   - component: {fileID: 7201620298099968933}
   - component: {fileID: 3099702659666525245}
   m_Layer: 5
-  m_Name: F
+  m_Name: P
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4639,7 +4639,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3075722083683705002}
         m_TargetAssemblyTypeName: ElementCheck_Manager, Assembly-CSharp
-        m_MethodName: FButton
+        m_MethodName: PButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
