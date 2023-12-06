@@ -371,7 +371,6 @@ MonoBehaviour:
   time: 0
   openingStartTime: 5
   openingTime: 0
-  Menu: {fileID: 0}
   subtitleTriggers: {fileID: 0}
   openingCheck: 0
   time20check: 0

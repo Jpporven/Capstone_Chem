@@ -2104,6 +2104,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "XR ToogleAttach",
+            "id": "1b107acd-235c-4963-8ba6-4817164e001f",
+            "actions": [
+                {
+                    "name": "Deattach",
+                    "type": "Button",
+                    "id": "3e2cac1b-0f97-4948-824e-bf011f219dc2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5f43c559-57d5-48fb-87e1-b286d351cbf3",
+                    "path": "<OculusTouchController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Deattach",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

@@ -20,6 +20,7 @@ public class ExperimentBool : MonoBehaviour
     //Strings that check if the right tool is being used.
     /*Public*/ string toolName = "Glass";
     /*Public*/ string toolAttach = "GlassAttach";
+    string splint = "Splint";
 
     //Bool that decided if the element has been experimented with.
     public bool hasBeenExperimentedOn = false;
@@ -31,6 +32,13 @@ public class ExperimentBool : MonoBehaviour
         if (other.name == toolName || other.name == toolAttach)
         {
             hasBeenExperimentedOn = true;
+        }
+        if(gameObject.name == "Nitrogen" || gameObject.name == "Oxygen")
+        {
+            if(other.name == splint)
+            {
+                hasBeenExperimentedOn = true;
+            }
         }
     }
 }

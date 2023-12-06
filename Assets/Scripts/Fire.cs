@@ -22,15 +22,19 @@ public class Fire : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Oxygen"))
+        if (other.name == "Oxygen")
         {
             scale = new Vector3(0.03f, 0.03f, 0.03f);
+
+            KindleParticle.SetActive(true);
+            FireParticle.SetActive(true);
+            DFireParticle.SetActive(true);
 
             FireParticle.transform.localScale = scale;
             KindleParticle.transform.localScale = scale;
             DFireParticle.transform.localScale = scale;
         }
-        else if (other.CompareTag("Nitrogen"))
+        else if (other.name == "Nitrogen")
         {
             KindleParticle.SetActive(false);
             FireParticle.SetActive(false);

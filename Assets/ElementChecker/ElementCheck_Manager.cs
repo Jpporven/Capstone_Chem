@@ -52,7 +52,7 @@ public class ElementCheck_Manager : MonoBehaviour
     }
 
     // Helper method to check if an array contains a specific value
-    private bool ArrayContains(string[] array, string value)
+    public bool ArrayContains(string[] array, string value)
     {
         foreach (string element in array)
         {

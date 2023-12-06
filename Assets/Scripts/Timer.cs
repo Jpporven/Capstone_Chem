@@ -14,7 +14,7 @@ public class Timer : MonoBehaviour
     public float openingStartTime = 5;
     public float openingTime;
 
-    public GameObject Menu;
+    //public GameObject Menu;
 
     public SubtitleTriggers subtitleTriggers;
 
@@ -30,7 +30,7 @@ public class Timer : MonoBehaviour
     {
         time = startTime;
         openingTime = openingStartTime;
-        Menu.SetActive(false);
+        //Menu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -99,7 +99,7 @@ public class Timer : MonoBehaviour
         if (time < 0)
         {
             timeDisplay = 0;
-            Menu.SetActive(true);
+            //Menu.SetActive(true);
         }
 
         float minutes = Mathf.FloorToInt(timeDisplay / 60);

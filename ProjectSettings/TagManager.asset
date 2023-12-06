@@ -8,6 +8,10 @@ TagManager:
   - Flame
   - Water
   - Destroyer
+  - Oxygen
+  - Element
+  - Nitrogen
+  - Tongs
   layers:
   - Default
   - TransparentFX
