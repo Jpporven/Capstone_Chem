@@ -2139,6 +2139,15 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Menu"",
+                    ""type"": ""Button"",
+                    ""id"": ""af9a4f6c-5ec0-4ec4-bceb-c22a61fd18a5"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -2150,6 +2159,17 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Deattach"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7c12e409-07a6-459b-ae24-07506712088d"",
+                    ""path"": ""<OculusTouchController>{LeftHand}/menu"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Menu"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -2305,6 +2325,7 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
         // XR ToogleAttach
         m_XRToogleAttach = asset.FindActionMap("XR ToogleAttach", throwIfNotFound: true);
         m_XRToogleAttach_Deattach = m_XRToogleAttach.FindAction("Deattach", throwIfNotFound: true);
+        m_XRToogleAttach_Menu = m_XRToogleAttach.FindAction("Menu", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -3223,11 +3244,13 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
     private readonly InputActionMap m_XRToogleAttach;
     private List<IXRToogleAttachActions> m_XRToogleAttachActionsCallbackInterfaces = new List<IXRToogleAttachActions>();
     private readonly InputAction m_XRToogleAttach_Deattach;
+    private readonly InputAction m_XRToogleAttach_Menu;
     public struct XRToogleAttachActions
     {
         private @XRIDefaultInputActions m_Wrapper;
         public XRToogleAttachActions(@XRIDefaultInputActions wrapper) { m_Wrapper = wrapper; }
         public InputAction @Deattach => m_Wrapper.m_XRToogleAttach_Deattach;
+        public InputAction @Menu => m_Wrapper.m_XRToogleAttach_Menu;
         public InputActionMap Get() { return m_Wrapper.m_XRToogleAttach; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -3240,6 +3263,9 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
             @Deattach.started += instance.OnDeattach;
             @Deattach.performed += instance.OnDeattach;
             @Deattach.canceled += instance.OnDeattach;
+            @Menu.started += instance.OnMenu;
+            @Menu.performed += instance.OnMenu;
+            @Menu.canceled += instance.OnMenu;
         }
 
         private void UnregisterCallbacks(IXRToogleAttachActions instance)
@@ -3247,6 +3273,9 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
             @Deattach.started -= instance.OnDeattach;
             @Deattach.performed -= instance.OnDeattach;
             @Deattach.canceled -= instance.OnDeattach;
+            @Menu.started -= instance.OnMenu;
+            @Menu.performed -= instance.OnMenu;
+            @Menu.canceled -= instance.OnMenu;
         }
 
         public void RemoveCallbacks(IXRToogleAttachActions instance)
@@ -3387,5 +3416,6 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
     public interface IXRToogleAttachActions
     {
         void OnDeattach(InputAction.CallbackContext context);
+        void OnMenu(InputAction.CallbackContext context);
     }
 }

@@ -16,7 +16,7 @@ public class Timer : MonoBehaviour
 
     //public GameObject Menu;
 
-    //public SubtitleTriggers subtitleTriggers;
+    public SubtitleTriggers subtitleTriggers;
 
     public bool openingCheck = false;
     public bool time20check = false;
@@ -41,7 +41,7 @@ public class Timer : MonoBehaviour
             openingTime -= Time.deltaTime;
         }
 
-        if (time > 0 && enterLv1 == true)
+        if (time > 0)
         {
             time -= Time.deltaTime;
         }
@@ -49,19 +49,19 @@ public class Timer : MonoBehaviour
         if (openingTime <= 0 && openingCheck == false)
         {
             openingCheck = true;
-            //subtitleTriggers.OpeningText();
+            subtitleTriggers.OpeningText();
         }
 
         if (time <= 1200 && time20check == false)
         {
             time20check = true;
-            //subtitleTriggers.quickClearCheck = false;
+            subtitleTriggers.quickClearCheck = false;
             if (level1Clear == true)
             {
-               // subtitleTriggers.minLeft20Lv2Text();
+               subtitleTriggers.minLeft20Lv2Text();
             }
            
-               // subtitleTriggers.minLeft20Lv1Text();
+               subtitleTriggers.minLeft20Lv1Text();
         }
 
         if (time <= 600 && time10check == false)
@@ -69,10 +69,10 @@ public class Timer : MonoBehaviour
             time10check = true;
             if (level1Clear == true)
             {
-                //subtitleTriggers.minLeft10Lv2Text();
+                subtitleTriggers.minLeft10Lv2Text();
             }
            
-               // subtitleTriggers.minLeft10Lv1Text();
+                subtitleTriggers.minLeft10Lv1Text();
         }
 
         if (time <= 300 && time5check == false)
@@ -80,16 +80,16 @@ public class Timer : MonoBehaviour
             time5check = true;
             if (level1Clear == true)
             {
-                // subtitleTriggers.minLeft5Lv2Text();
+                 subtitleTriggers.minLeft5Lv2Text();
             }
             
-                //subtitleTriggers.minLeft5Lv1Text();
+                subtitleTriggers.minLeft5Lv1Text();
         }
 
         if (time <= 0 && timesUpCheck == false)
         {
             timesUpCheck = true;
-            //subtitleTriggers.minLeft0Lv1Text();
+            subtitleTriggers.minLeft0Lv1Text();
         }
         Displaytime(time);
     }
