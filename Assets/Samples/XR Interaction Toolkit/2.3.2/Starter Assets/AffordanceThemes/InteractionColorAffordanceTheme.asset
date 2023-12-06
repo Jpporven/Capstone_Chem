@@ -19,7 +19,7 @@ MonoBehaviour:
 
     Select
     => Value can be animated between [Start,End] for click anim.'
-  m_ReadOnly: 1
+  m_ReadOnly: 0
   m_Value:
     m_StateAnimationCurve:
       m_UseConstant: 1

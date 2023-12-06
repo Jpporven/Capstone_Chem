@@ -40,6 +40,8 @@ namespace UnityEngine.XR.Content.Interaction
         [SerializeField]
         [Tooltip("Events to fire when the door is unlocked.")]
         UnityEvent m_OnUnlock = new UnityEvent();
+        [SerializeField]
+        BoxCollider m_BoxCollider;
 
         JointLimits m_OpenDoorLimits;
         JointLimits m_ClosedDoorLimits;
@@ -66,6 +68,7 @@ namespace UnityEngine.XR.Content.Interaction
 
         void Start()
         {
+            m_BoxCollider = GetComponent<BoxCollider>();
             m_OpenDoorLimits = m_DoorJoint.limits;
             m_ClosedDoorLimits = m_OpenDoorLimits;
             m_ClosedDoorLimits.min = 0.0f;
@@ -166,6 +169,15 @@ namespace UnityEngine.XR.Content.Interaction
         {
             m_KnobInteractor = null;
             m_KnobInteractorAttachTransform = null;
+        }
+
+        public void Onlock()
+        {
+            m_BoxCollider.enabled = true;
+        }
+        public void Unlock()
+        {
+            m_BoxCollider.enabled = false;
         }
     }
 }

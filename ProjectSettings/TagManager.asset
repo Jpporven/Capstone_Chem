@@ -12,6 +12,11 @@ TagManager:
   - Element
   - Nitrogen
   - Tongs
+  - Key
+  - Enter 1
+  - Escape
+  - Clear 1
+  - Clear 2
   layers:
   - Default
   - TransparentFX
