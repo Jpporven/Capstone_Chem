@@ -215,6 +215,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7415f28ae303170438edca1a74f04c2a, type: 3}
+--- !u!114 &677469292 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2014781902401494988, guid: 3f1b15d922bc64bd0b45386150562a7a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8288110502921309290}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b84ac7c52a658c947927f5ad970fe1e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +465,7 @@ PrefabInstance:
     - target: {fileID: 2817871500527708019, guid: aeda425acf2fa474c8e3c8d2522f550d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.23
+      value: 4.53
       objectReference: {fileID: 0}
     - target: {fileID: 2817871500527708019, guid: aeda425acf2fa474c8e3c8d2522f550d,
         type: 3}
@@ -463,7 +475,7 @@ PrefabInstance:
     - target: {fileID: 2817871500527708019, guid: aeda425acf2fa474c8e3c8d2522f550d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.41
+      value: 10.05
       objectReference: {fileID: 0}
     - target: {fileID: 2817871500527708019, guid: aeda425acf2fa474c8e3c8d2522f550d,
         type: 3}
@@ -539,11 +551,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT Holder
       objectReference: {fileID: 0}
-    - target: {fileID: 1099495024743084067, guid: 2d90fbf644d7c0142a491038a9e0a749,
-        type: 3}
-      propertyPath: m_TagString
-      value: Key
-      objectReference: {fileID: 0}
     - target: {fileID: 1113799484858355229, guid: 2d90fbf644d7c0142a491038a9e0a749,
         type: 3}
       propertyPath: m_RootOrder
@@ -599,25 +606,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3097397004745124706, guid: 2d90fbf644d7c0142a491038a9e0a749,
+    - target: {fileID: 2833076621636647580, guid: 2d90fbf644d7c0142a491038a9e0a749,
         type: 3}
-      propertyPath: m_TagString
-      value: Key
-      objectReference: {fileID: 0}
-    - target: {fileID: 5171176345157419978, guid: 2d90fbf644d7c0142a491038a9e0a749,
-        type: 3}
-      propertyPath: m_TagString
-      value: Key
-      objectReference: {fileID: 0}
-    - target: {fileID: 7522974385569010032, guid: 2d90fbf644d7c0142a491038a9e0a749,
-        type: 3}
-      propertyPath: m_TagString
-      value: Key
-      objectReference: {fileID: 0}
-    - target: {fileID: 7778018303583442001, guid: 2d90fbf644d7c0142a491038a9e0a749,
-        type: 3}
-      propertyPath: m_TagString
-      value: Key
+      propertyPath: winCondition
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -695,7 +687,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -710,6 +702,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3815022476054330471, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
+        type: 3}
+      propertyPath: m_OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 677469292}
     - target: {fileID: 4199210468275731610, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
         type: 3}
       propertyPath: m_RootOrder
@@ -769,6 +766,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tutorial
+      objectReference: {fileID: 0}
+    - target: {fileID: 7990283524023738501, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
+        type: 3}
+      propertyPath: m_UseDynamicAttach
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479382688962140402, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
+        type: 3}
+      propertyPath: m_Name
+      value: ImportantBunsenBurnerTutorial
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

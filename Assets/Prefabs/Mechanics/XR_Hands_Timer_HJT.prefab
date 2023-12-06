@@ -371,7 +371,6 @@ MonoBehaviour:
   time: 0
   openingStartTime: 5
   openingTime: 0
-  subtitleTriggers: {fileID: 0}
   openingCheck: 0
   time20check: 0
   time10check: 0
@@ -546,6 +545,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2297423231934695783, guid: 7415f28ae303170438edca1a74f04c2a,
+        type: 3}
+      propertyPath: m_LeftHandTurnAction.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4108099112279997943, guid: 7415f28ae303170438edca1a74f04c2a,
         type: 3}
       propertyPath: m_TeleportInteractor
@@ -556,6 +560,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5117420926983638018, guid: 7415f28ae303170438edca1a74f04c2a,
+        type: 3}
+      propertyPath: m_LeftHandSnapTurnAction.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5840718778788162320, guid: 7415f28ae303170438edca1a74f04c2a,
         type: 3}
       propertyPath: m_RootOrder
@@ -564,7 +573,7 @@ PrefabInstance:
     - target: {fileID: 5840718778788162320, guid: 7415f28ae303170438edca1a74f04c2a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.23
+      value: 4.53
       objectReference: {fileID: 0}
     - target: {fileID: 5840718778788162320, guid: 7415f28ae303170438edca1a74f04c2a,
         type: 3}
@@ -574,7 +583,7 @@ PrefabInstance:
     - target: {fileID: 5840718778788162320, guid: 7415f28ae303170438edca1a74f04c2a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.41
+      value: 10.05
       objectReference: {fileID: 0}
     - target: {fileID: 5840718778788162320, guid: 7415f28ae303170438edca1a74f04c2a,
         type: 3}
@@ -616,10 +625,20 @@ PrefabInstance:
       propertyPath: m_TeleportInteractor
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8055973053543227852, guid: 7415f28ae303170438edca1a74f04c2a,
+        type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8678867122604575015, guid: 7415f28ae303170438edca1a74f04c2a,
         type: 3}
       propertyPath: m_Name
       value: XR_Hands_Timer_HJT
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678867122604575015, guid: 7415f28ae303170438edca1a74f04c2a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -639,10 +658,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6486261305933921004, guid: 7415f28ae303170438edca1a74f04c2a,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6016887032650961925}
-    - targetCorrespondingSourceObject: {fileID: 6486261305933921004, guid: 7415f28ae303170438edca1a74f04c2a,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 4381104211450658521}
   m_SourcePrefab: {fileID: 100100000, guid: 7415f28ae303170438edca1a74f04c2a, type: 3}
 --- !u!4 &180489032642556552 stripped
@@ -657,32 +672,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8508832396407835747}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6016887032650961925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3176908768356398735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00dfbd3eb227c024ba378bb977176da8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deattachToggle:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Deattach Toggle
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 96f8381e-cee3-49fb-afa8-203364eeba15
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 5858497518543301482, guid: c348712bda248c246b8c49b3db54643f,
-      type: 3}
-  tong: {fileID: 0}
 --- !u!114 &4381104211450658521
 MonoBehaviour:
   m_ObjectHideFlags: 0
