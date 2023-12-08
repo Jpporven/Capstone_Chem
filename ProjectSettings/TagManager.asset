@@ -17,6 +17,9 @@ TagManager:
   - Escape
   - Clear 1
   - Clear 2
+  - goodElectron
+  - Electron
+  - Level2Manager
   layers:
   - Default
   - TransparentFX
@@ -24,7 +27,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Subtitle
   - 
   - 
   - 
