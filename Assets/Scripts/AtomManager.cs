@@ -8,10 +8,13 @@ public class AtomManager : MonoBehaviour
     public GameObject NaAtom;
     public GameObject MgAtom;
     public GameObject AlAtom;
-    // public GameObject NAtom;
-    //public GameObject OAtom;
-    //public GameObject FAtom;
+    public GameObject NAtom;
+    public GameObject OAtom;
+    public GameObject FAtom;
+    public GameObject Basket;
 
+    public GameObject OElectronParent;
+    public GameObject FElectronParent;
     public int currentElement;
     public int numberOfelectrons;
     public int goodElectron;
@@ -22,7 +25,9 @@ public class AtomManager : MonoBehaviour
     public GameObject[] NaElectrons;
     public GameObject[] MgElectrons;
     public GameObject[] AlElectrons;
-
+    public GameObject[] NElectrons;
+    public GameObject[] OElectrons;
+    public GameObject[] FElectrons;
     public GameObject[] Titles;
 
     //Current status of the table
@@ -30,6 +35,11 @@ public class AtomManager : MonoBehaviour
     //goal
     public TMP_Text AtomText;
 
+    public void Awake()
+    {
+
+
+    }
     // Set the current element in 1 , since is the first element that will spawn in the position
     // of the second level.
     private void Start()
@@ -94,38 +104,38 @@ public class AtomManager : MonoBehaviour
             }
 
         }
-        if (currentElement == 4)
+        if (currentElement ==  14)
         {
-            if (numberOfelectrons == 0)
+            if (goodElectron == 0)
             {
                 Tabletext.text = "N";
             }
             else
             {
-                Tabletext.text = "N<sup>" + numberOfelectrons.ToString() + "-</sup>";
+                Tabletext.text = "N<sup>" + (goodElectron*-1).ToString() + "-</sup>";
             }
         }
-        if (currentElement == 5)
+        if (currentElement == 15)
         {
-            if (numberOfelectrons == 0)
+            if (goodElectron == 0)
             {
                 Tabletext.text = "O";
             }
             else
             {
-                Tabletext.text = "O<sup>" + numberOfelectrons.ToString() + "-</sup>";
+                Tabletext.text = "O<sup>" + (goodElectron * -1).ToString() + "-</sup>";
             }
 
         }
-        if (currentElement == 6)
+        if (currentElement == 16)
         {
-            if (numberOfelectrons == 0)
+            if (goodElectron == 0)
             {
                 Tabletext.text = "F";
             }
             else
             {
-                Tabletext.text = "F<sup>" + numberOfelectrons.ToString() + "-</sup>";
+                Tabletext.text = "F<sup>" + (goodElectron * -1).ToString() + "-</sup>";
             }
         }
     }
@@ -179,7 +189,8 @@ public class AtomManager : MonoBehaviour
                 print("Its Working");
                 currentElement++;
                 NextElement();
-                numberOfelectrons = 4;
+                numberOfelectrons = 8;
+                goodElectron = 0;
             }
             else
             {
@@ -187,34 +198,37 @@ public class AtomManager : MonoBehaviour
             }
         }
 
-        if (currentElement == 4)
-        {
-            if (numberOfelectrons == -3)
+        if (currentElement == 14)
+        { 
+            if (goodElectron == -3)
             {
                 print("Its Working");
                 currentElement++;
                 NextElement();
-                numberOfelectrons = 5;
+                numberOfelectrons = 8;
+                goodElectron = 0;
             }
         }
-        if (currentElement == 5)
+        if (currentElement == 15)
         {
-            if (numberOfelectrons == -2)
+            if (goodElectron == -2)
+            {
+                print("Its Working");
+                currentElement++;
+                NextElement();
+                numberOfelectrons = 7;
+                goodElectron = 0;
+            }
+        }
+        if (currentElement == 16)
+        {
+            if (goodElectron == -1)
             {
                 print("Its Working");
                 currentElement++;
                 NextElement();
                 numberOfelectrons = 6;
-            }
-        }
-        if (currentElement == 6)
-        {
-            if (numberOfelectrons == -1)
-            {
-                print("Its Working");
-                currentElement++;
-                NextElement();
-                numberOfelectrons = 0;
+                goodElectron = 0;
 
 
             }
@@ -258,35 +272,47 @@ public class AtomManager : MonoBehaviour
                 AlElectrons[i].SetActive(false);
             }
             AlAtom.SetActive(false);
-            Titles[0].SetActive(false);
-            Titles[1].SetActive(false);
-            Tabletext.gameObject.transform.localScale += new Vector3(0.05f, 0.05f, 0.05f);
-            Tabletext.text = "DEMO FINISHED ";
-            AtomText.gameObject.SetActive(false);
+            NAtom.SetActive(true);
+            Tabletext.text = "N";
+            AtomText.text = "N<sup>3-</sup>";
         }
-        /*
-        if(currentElement == 5)
-         {     
+
+        if (currentElement == 15)
+        {
+            for (int i = 0; i < NElectrons.Length; i++)
+            {
+                NElectrons[i].SetActive(false);
+            }
              NAtom.SetActive(false);
              OAtom.SetActive(true);
-             Tabletext.text="O";
+            OElectronParent.SetActive(true);
+            Tabletext.text="O";
              AtomText.text= "O<sup>2-</sup>";
 
          }
-         if (currentElement == 6)
-         {   
-             OAtom.SetActive(false);
-             FAtom.SetActive(true);
-             Tabletext.text = "F";
-             AtomText.text = "F<sup>1-</sup>";
+         if (currentElement == 16)
+         {
+            for (int i = 0; i < OElectrons.Length; i++)
+            {
+                OElectrons[i].SetActive(false);
+            }
+            OAtom.SetActive(false);
+            FAtom.SetActive(true);
+           FElectronParent.SetActive(true);
+            Tabletext.text = "F";
+            AtomText.text = "F<sup>1-</sup>";
 
          }
 
-        if(currentElement == 7)
+        if(currentElement == 17)
          {
              FAtom.SetActive(false);
+             for (int i = 0; i<FElectrons.Length; i++)
+            {
+                FElectrons[i].SetActive(false);
+            }
          }
-     */
+     
     }
 
 
