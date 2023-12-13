@@ -17,11 +17,14 @@ TagManager:
   - Escape
   - Clear 1
   - Clear 2
+  - Level2Manager
+  - Electron
+  - goodElectron
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Objects
   - Water
   - UI
   - 
