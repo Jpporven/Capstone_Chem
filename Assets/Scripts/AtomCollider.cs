@@ -39,6 +39,9 @@ public class AtomCollider : MonoBehaviour
         {
             Atom.numberOfelectrons--;
             Atom.goodElectron--;
+
+            
+            
         }
     }
 }
