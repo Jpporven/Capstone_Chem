@@ -373,6 +373,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR_Hands_Timer_HJT
       objectReference: {fileID: 0}
+    - target: {fileID: 1045967208447355226, guid: aeda425acf2fa474c8e3c8d2522f550d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1730249663252526016, guid: aeda425acf2fa474c8e3c8d2522f550d,
         type: 3}
       propertyPath: tong.Array.data[0]
