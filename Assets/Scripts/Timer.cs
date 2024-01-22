@@ -28,14 +28,17 @@ public class Timer : MonoBehaviour
     public bool timesUpCheck = false;
     void Start()
     {
+        
         time = startTime;
         openingTime = openingStartTime;
+        StartCoroutine(lessTimer());
         //Menu.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
+        /*
         if(openingTime >= -1)
         {
             openingTime -= Time.deltaTime;
@@ -45,7 +48,13 @@ public class Timer : MonoBehaviour
         {
             time -= Time.deltaTime;
         }
+        */
 
+
+        if(openingTime >= 0)
+        {
+            openingTime = 0;
+        }
         if (openingTime <= 0 && openingCheck == false)
         {
             openingCheck = true;
@@ -106,5 +115,12 @@ public class Timer : MonoBehaviour
         float seconds = Mathf.FloorToInt(timeDisplay % 60);
 
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
+
+    public IEnumerator lessTimer()
+    {
+        yield return new WaitForSeconds(1);
+        time--;
+        openingTime--;
     }
 }

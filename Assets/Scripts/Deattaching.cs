@@ -8,17 +8,18 @@ using UnityEngine.SceneManagement;
 
 public class Deattaching : MonoBehaviour
 {
+    public Timer timer;
     public InputActionProperty deattachToggle;
     public InputActionProperty pauseMenuAction;
-    XRSocketInteractor[] socket;
-    public GameObject [] tong;
+    XRSocketInteractor socket;
+    public GameObject  tong;
     public GameObject pauseMenu;
+    public bool isPaused;
     public void Awake()
     {
-        for(int i = 0; i < tong.Length; i++)
-        {
-            socket[i] = tong[i].GetComponent<XRSocketInteractor>();
-        }
+        
+         socket = tong.GetComponent<XRSocketInteractor>();
+       
         
     }
     public void Update()
@@ -29,35 +30,40 @@ public class Deattaching : MonoBehaviour
         print(pauseValue);
         if (buttonvalue != 0)
         {
-            for(int i = 0; i < socket.Length; i++)
-            {
-                socket[i].enabled = false;
-            }
-            
+           
+                socket.enabled = false;
+           
             
        
         }
         else
         {
-            for (int i = 0; i < socket.Length; i++)
-            {
-                socket[i].enabled = true;
-            }
+            
+                socket.enabled = true;
+            
 
         }
 
         if (pauseValue != 0)
         {
 
-            pauseMenu.SetActive(true);
+            isPaused = !isPaused;
 
         }
-
+        if (isPaused == true)
+        {
+            StopCoroutine(timer.lessTimer());
+            pauseMenu.SetActive(true);
+        }
         else
         {
-
             pauseMenu.SetActive(false);
+            StartCoroutine(timer.lessTimer());
         }
+            
+        
+
+      
 
         
     }
