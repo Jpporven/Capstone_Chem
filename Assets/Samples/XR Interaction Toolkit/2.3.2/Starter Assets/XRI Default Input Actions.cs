@@ -2154,7 +2154,7 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
                 {
                     ""name"": """",
                     ""id"": ""5f43c559-57d5-48fb-87e1-b286d351cbf3"",
-                    ""path"": ""<XRController>{RightHand}/secondaryButton"",
+                    ""path"": ""<OculusTouchController>/secondaryButton"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -2165,7 +2165,7 @@ public partial class @XRIDefaultInputActions: IInputActionCollection2, IDisposab
                 {
                     ""name"": """",
                     ""id"": ""7c12e409-07a6-459b-ae24-07506712088d"",
-                    ""path"": ""<XRController>{LeftHand}/menuButton"",
+                    ""path"": ""<OculusTouchController>/menu"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

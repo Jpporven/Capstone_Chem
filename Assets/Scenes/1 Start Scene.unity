@@ -601,7 +601,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1238400866
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1499,6 +1499,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2340262995935557580, guid: 32ae51d40cf1c48b991cb9b9e4375915,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2504180516139091162, guid: 32ae51d40cf1c48b991cb9b9e4375915,
         type: 3}
       propertyPath: color
@@ -1509,6 +1514,12 @@ PrefabInstance:
       propertyPath: gameTitle
       value: 
       objectReference: {fileID: 1238400865}
+    - target: {fileID: 2745314360118342583, guid: 32ae51d40cf1c48b991cb9b9e4375915,
+        type: 3}
+      propertyPath: m_text
+      value: "Programmers: \nMario Figueredo,  Franklin Baez, \nJoel Williams,  Jorge
+        Carroz, \nVan-Rod Lafortune,  Monro Guillaume, \nJuan Salomon"
+      objectReference: {fileID: 0}
     - target: {fileID: 2818382194625348958, guid: 32ae51d40cf1c48b991cb9b9e4375915,
         type: 3}
       propertyPath: turnTypeFromPlayerPref

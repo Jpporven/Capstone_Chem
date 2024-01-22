@@ -289,6 +289,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4108099112279997943, guid: 7415f28ae303170438edca1a74f04c2a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5840718778788162320, guid: 7415f28ae303170438edca1a74f04c2a,
         type: 3}
       propertyPath: m_RootOrder
@@ -380,6 +385,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1730249663252526016, guid: aeda425acf2fa474c8e3c8d2522f550d,
         type: 3}
+      propertyPath: tong
+      value: 
+      objectReference: {fileID: 109101828}
+    - target: {fileID: 1730249663252526016, guid: aeda425acf2fa474c8e3c8d2522f550d,
+        type: 3}
       propertyPath: tong.Array.data[0]
       value: 
       objectReference: {fileID: 846858421}
@@ -388,6 +398,16 @@ PrefabInstance:
       propertyPath: tong.Array.data[1]
       value: 
       objectReference: {fileID: 109101828}
+    - target: {fileID: 1730249663252526016, guid: aeda425acf2fa474c8e3c8d2522f550d,
+        type: 3}
+      propertyPath: deattachToggle.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730249663252526016, guid: aeda425acf2fa474c8e3c8d2522f550d,
+        type: 3}
+      propertyPath: pauseMenuAction.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1862767537732300207, guid: aeda425acf2fa474c8e3c8d2522f550d,
         type: 3}
       propertyPath: m_RequestedTrackingOriginMode
@@ -1323,7 +1343,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1929,6 +1949,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3933908634193525917, guid: ec860549fbda84c17ba59915dd4e9f99,
+        type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7856628830953746031, guid: ec860549fbda84c17ba59915dd4e9f99,
         type: 3}
       propertyPath: m_RootOrder
