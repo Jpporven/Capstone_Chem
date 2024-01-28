@@ -209,124 +209,161 @@ MonoBehaviour:
   missdentifiedOnceCheck: 0
   opening:
     sentences:
-    - 'Hello there. It seems that you''ve been selected to become our newest Peer
-      Academic Leader, or Pal for short, haha. '
-    - 'In order to be accepted as our new Pal, we will put your chemistry knowledge
-      to the test, and what better way than an Escape Room! '
-    - "You\u2019ll need to escape two rooms within 30 minutes in order to successfully
-      become our newest Pal, seems easy enough, right?\u201D\r"
-    - "Before we begin, you might not be too familiar with how things go around here,
-      since it\u2019s your first time, allow me to help you."
-    - Use your left joystick to move around, you'll be doing that a lot around here.
-      Tilt your head to look around your surroundings, try not to trip on anything.
-    - Your right joystick lets you look around too, not as reliable as moving that
-      noggin of yours yea?
-    - Use either the left or right triggers on your controllers to grab or let go
-      of anything within the lab rooms. Try grabbing that ball and just throwing
-      it.
-    - Alright, you seem to be comfortable with how this will go, time for the main
-      event!
+    - 'Female Voice: Well, hello there, It seems that you were hand selected to become
+      our newest Peer Academic Leader, or as I like to call them, Pal. In order to
+      be accepted as our new Pal, we will put your chemistry knowledge to the test.
+      And I thought, what better way to test your knowledge and quick thinking skills
+      than an escape room!'
+    - "Male Voice: Alright alright I think that's enough. Let\u2019s get to the basics,
+      you\u2019ll need to escape two rooms within 30 minutes in order to pass. Ha!
+      Really, 30 minutes? I escaped in 10 minutes, but I digress.  This is a fairly
+      simple task I assure you."
+    - "Female Voice: Ahem, before we begin, you might not be too familiar with how
+      things work around here.\r"
+    - 'Male Voice: No really, I thought they were geniuses who were experts in chemistry.'
+    - "Female Voice: Anyway, Allow me to help you. Use your left joystick to move
+      around, you\u2019ll be doing that a lot around here. Tilt your head to look
+      around your surroundings, try not to trip on anything."
+    - 'Male Voice: Hehehe good luck with that.'
+    - 'Female Voice: Your right joystick lets you look around too, not as reliable
+      as moving that head of yours yea?
+
+
+      Use either the left or right triggers
+      on your controllers to grab or let go of anything within the lab rooms. Try
+      grabbing that ball and just throwing it.
+
+'
+    - 'Male Voice: Try not hitting yourself will ya.'
+    - "Female Voice: Not bad at all, you\u2019re a Pal in the making! Make your way
+      through the door when you\u2019re ready to begin!"
   lv1Enter:
     sentences:
-    - "Here in the first room, your task will be to find the missing 10 elements
-      that aren\u2019t showing up in the periodic table you see before you."
-    - There are many tools and hints that will help you in solving these tasks. Once
-      you correctly identify the element using my special machine, you bring its
-      symbol to the periodic table.
-    - "Bring them all and you\u2019ll move on to the second room. I\u2019ll touch
-      on that room more when you get there, for now, good luck with the first room!"
-    - ' Oh, did I forget to mention that your timer started the moment you entered
-      the room? Now you know! (laughs).'
+    - 'Male Voice: Welcome Lab Ra- I mean, Pal! Here in the first room, your task
+      will be to find the missing 10 elements that aren''t showing up in the periodic
+      table you see before you. There are many tools and hints that will help you
+      in solving these tasks, once you correctly identify the elements using my-
+      ahem, I mean our special machine, you bring it''s symbol to the periodic table.
+      Bring them all and you''ll move on to the second room, we''ll touch on the
+      second room when you get there. Since I feel sorry for you, we''ll guide you
+      on this works.'
+    - 'Female Voice: Let''s start with Identifying the element, Lithium. Start by
+      walking to where the clue is right over there.'
+    - 'Female Voice: Before we can properly identify the element using our clue,
+      we must turn on the Bunsen burner first. Turn the wheel at the bottom until
+      you see the Bunsen burner light up.'
+    - 'Female Voice: Good! Now, carefully use the tong and grab the Lithium mineral,
+      and place it over the fire.'
+    - 'Female Voice: Great Job! The color of the flame matches the color of the clue
+      we just saw! Now head on over to the Element Machine and let''s go get our
+      symbol.'
+    - 'Female Voice: Insert the mineral into the hole of the machine you see, and
+      then correctly push the button that represents Lithium.'
+    - 'Male Voice: Pressing the wrong button won''t do you any favors, you''ll thank
+      me later on that.'
+    - 'Female Voice: Excellent! Finally, you must put the Lithium Symbol in it''s
+      proper place on the periodic table, and then you''re done! Use the clue as
+      a guide for where it goes!'
+    - 'Male Voice: Congrats! You found only just *one* element out of ten, and with
+      time still ticking, who knows if you''ll even find the rest of them in time.'
+    - 'Female Voice: Did you set the timer to go off as soon as our Pal walked in?!'
+    - 'Male Voice: Maybe I did, Maybe I didn''t, who can know for sure. But that
+      time''s running while they''re still standing. Hey Pal, we got you a freebie,
+      you''re on your own for finding the rest of the elements, good luck beating
+      this in time, if you can that is.'
+    - 'Female Voice: Time is of the essence, good luck!'
   minLeft20Lv1:
     sentences:
-    - "You\u2019ve got 20 minutes!! Here I thought you could set a new record..."
+    - "Male Voice: Hmm you\u2019ve got 20 minutes. Here I thought you could set a
+      new record, probably still couldn't beat my time though."
   minLeft10Lv1:
     sentences:
-    - "You\u2019ve got 10 minutes, If you\u2019re quick enough, you could at least
-      try the second room!"
+    - "Male Voice: You\u2019ve got 10 minutes, if you\u2019re quick enough, you could
+      at look at second room!"
   minLeft5Lv1:
     sentences:
-    - "I don\u2019t mean to alarm you, but you\u2019ve only got 5 minutes and a dream
-      to beat this room and the next one."
+    - 'Male Voice: Hmm that''s not good, you only got 5 minutes and a dream to beat
+      this room and the next one.'
   minLeft0Lv1:
     sentences:
-    - "TIMES UP! Sorry to say, but you unfortunately didn\u2019t get to escape in
-      time to become our new Pal. I do hope you return someday and give it a shot
-      again!"
+    - 'Female Voice: TIMES UP! Sorry to say, but unfortunately you failed to escape
+      in time to become our new Pal. Tsk I do hope you return someday to give it
+      another shot.'
   minLeft20Lv2:
     sentences:
-    - You were soooo close to making news on how fast you cleared this escape room,
-      bummer...
+    - 'Male Voice: Oh you were so close to making news on how fast you cleared this
+      escape room, tsk what a shame.'
   minLeft10Lv2:
     sentences:
-    - 10 Minutes!! Think harder, think faster!!
+    - 'Male Voice: 10 Minutes!! Tick Tock think harder, think faster!'
   minLeft5Lv2:
     sentences:
-    - "5 Minutes left!! You\u2019re in the final stretch! Go Go Go!"
+    - "Female Voice: 5 Minutes left!! You\u2019re in the final stretch! Go Go Go!"
   minLeft0Lv2:
     sentences:
-    - "TIME\u2019S UP!!! Right at the finish line too, you may not be our newest
-      pal now, but you\u2019ll get it for sure the next time!"
+    - "Female Voice: TIME\u2019S UP!!! Right at the finish line too, you may not
+      be our newest pal now, but you\u2019ll get it for sure the next time!"
   lv1Clear:
     sentences:
-    - You did it!! With some time to your name still, we can move onto the second
-      room, open that door while I explain your next task.
-    - "In the second room, you\u2019ll see a large table in front of you and in it,
-      a model of an atom with the name next to it. "
-    - 'You must be able to make it into an ion by adjusting the number of electrons
-      the model has. '
-    - "Once you correctly make an ion, the next one will be ready for you to make
-      immediately, it\u2019s as simple as it sounds. "
-    - 'If you make a mistake with the current atom, hit that button next to the model
-      to reset it back to how it was originally. '
-    - "Go now! Get to it, you\u2019re still on the clock ya know!"
+    - 'Female Voice: You did it!! With some time to your name still, we can move
+      onto the second room, please open that door while I explain your next task.'
+    - "Female Voice: Great, you made it to the next room. In the second room, you\u2019ll
+      see a large table in front of you and in it, a model of an atom with the name
+      next to it. You must be able to make it into an ion by adjusting the number
+      of electrons the model has. Once you correctly make an ion, the next one will
+      be ready for you to make immediately, it is as simple as it sounds. If you
+      make a mistake with the current atom, hit that button next to the model to
+      reset it back to how it was originally."
+    - "Male Voice: Get to it, you\u2019re still on the clock you know! "
   lv2Clear:
     sentences:
-    - "Congratulations!! You\u2019ve successfully completed our escape room! "
-    - "You\u2019re now officially our new Pal! Doesn\u2019t that feel nice, we\u2019re
-      happy to have you, especially when considering your knowledge regarding chemistry!"
+    - "Female Voice: Congratulations!! You\u2019ve successfully completed our escape
+      room! You are now officially our new Pal!! We\u2019re happy to have you, especially
+      considering your knowledge regarding chemistry!"
   normalClear:
     sentences:
-    - Although you passed everything, there were some hidden feats that we hoped
-      that you would uncover,
-    - "they would\u2019ve came with cool badges just for you too, maybe another time
-      you can come back and earn those"
+    - 'Female Voice: Although you passed everything, there were some hidden feats
+      that we hoped that you could uncover.'
+    - "Female Voice: They would have come with cool badges too, maybe come back another
+      time to try and earn them!\u201D "
   quickClear:
     sentences:
-    - "I must say I\u2019m very impressed at the speed at which you did all of this,
-      although that speed did mean you missed out on a secret or two within the first"
-    - ' room, you still passed nonetheless, and earned a neat badge as well!'
+    - "Male Voice: I must say I\u2019m very impressed at the speed at which you did
+      all of this, although that speed did mean you missed out on a secret or two
+      within the first room."
+    - "Male Voice: You still passed nonetheless, and earned a neat badge as well!\u201D "
   normalClearHidden:
     sentences:
-    - I would also like to say how im proud that you managed to find the hidden elements
-      within the first room, good job on that!
-    - "You\u2019ve earned a badge for finding them!"
+    - "Female Voice: I would also like to say I\u2019m proud that you managed to
+      find the hidden elements within the first room, good job on that, you\u2019ve
+      earned a badge for finding them!"
   quickClearHidden:
     sentences:
-    - I would also like to say how im proud that you managed to find the hidden elements
-      within the first room, good job on that!
-    - "You\u2019ve earned a badge for finding them!"
-    - 'I would also like to acknowledge your feats in this escape room as well! '
-    - 'Identifying the two hidden elements within the first room, while also escaping
-      both rooms within 10 minutes? '
-    - "You\u2019ve well-earned these badges commemorating your accomplishments!"
+    - "Female Voice: I would like to take this time to acknowledge your accomplishments.
+      You identified the two hidden elements within the first room, while also escaping
+      both rooms within 10 minutes?! Well done you earned these badges commemorating
+      your accomplishments!\u201D "
   findFlourine:
     sentences:
-    - "Aahh, got a knack for finding secrets yea? Don\u2019t waste too much time
-      on identifying this now, you got the main course to worry about.\u201D"
+    - "Male Voice: Aahh, got a knack for finding secrets yea? Don\u2019t waste too
+      much time on identifying this now, you got the main course to worry about."
   findClorine:
     sentences:
-    - "You might be thinking to yourself \u201COh what is this doing here?\u201D
-      don\u2019t worry about it, it\u2019s nothing, really, nothing at allll."
+    - "Male Voice: You might be thinking to yourself \u201COh what is this doing
+      here?\u201D don\u2019t worry about it, it\u2019s nothing, really, nothing at
+      allll."
   findBothHidden:
     sentences:
-    - "You found my two hidden elements within this room! That\u2019ll earn you a
-      nice prize once this is all over, don\u2019t waste time now! Keep it going!"
+    - 'Female Voice: Congratulations! You found two of our hidden elements within
+      this room! For that you earn yourself a nice reward once this is all over,
+      don''t get distracted though keep going!'
   flourineIdentified:
     sentences:
-    - "Oohh look at you, my new Pal in the making!\r"
+    - "Female Voice: Oohh look at you, my new Pal in the making!\r"
   chlorineIdenified:
-    sentences: []
+    sentences:
+    - 'Male Voice: Well, you got me, found one of my secrets for this room. You are
+      smarter than I thought.'
   missdentified:
     sentences:
     - No hints for my little secrets, sorry!
@@ -385,7 +422,7 @@ RectTransform:
   - {fileID: 2837806701975907819}
   - {fileID: 429605780982018318}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
