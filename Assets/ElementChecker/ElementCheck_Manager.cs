@@ -8,10 +8,15 @@ public class ElementCheck_Manager : MonoBehaviour
 {
     public string selectedElement;
 
+    GameObject element;
+
+    public GameObject[] FinalElements;  
     public GameObject checkYES;
     public GameObject checkNO;
 
     public TMP_Text checkText;
+
+    public bool[] elementChecked;
 
 
 
@@ -21,13 +26,15 @@ public class ElementCheck_Manager : MonoBehaviour
         if (other.gameObject.GetComponent<ExperimentBool>() != null)
         {
             // Check if the name is in the list of elements
-            string[] validNames = { "Aluminum", "Calcium", "Lithium", "Magnesium", "Sodium", "Potassium", "Nitrogen", "Oxygen", "Fluorine", "Chlorine", "Phosphorus", "Sulfur" };
+            string[] validNames = { "Aluminum1", "Calcium1", "Lithium1", "Magnesium1", "Sodium1", "Potassium1", "Nitrogen1", "Oxygen1", "Fluorine1", "Chlorine1", "Phosphorus1", "Sulfur1" };
 
             if (ArrayContains(validNames, other.gameObject.name))
             {
                 if(other.gameObject.GetComponent<ExperimentBool>().hasBeenExperimentedOn == true)
                 {
                     selectedElement = other.gameObject.name;
+
+                    element = other.gameObject;
 
                     Debug.Log("Valid element selected");
                 }
@@ -52,7 +59,7 @@ public class ElementCheck_Manager : MonoBehaviour
     }
 
     // Helper method to check if an array contains a specific value
-    public bool ArrayContains(string[] array, string value)
+    private bool ArrayContains(string[] array, string value)
     {
         foreach (string element in array)
         {
@@ -66,204 +73,317 @@ public class ElementCheck_Manager : MonoBehaviour
 
     public void LiButton()
     {
-        if(selectedElement == "Lithium")
+        if (!elementChecked[4])
         {
-            checkNO.SetActive(false);
-            checkYES.SetActive(true);
+            if (selectedElement == "Lithium1")
+            {
+                checkNO.SetActive(false);
+                checkYES.SetActive(true);
 
-            checkText.text = "Li";
-        }
-        else
-        {
-            checkNO.SetActive(true);
-            checkYES.SetActive(false);
-        }
+                Instantiate(FinalElements[4], transform.position, Quaternion.Euler(20, -45, 0));
 
+                Destroy(element);
+
+                elementChecked[4] = true;
+
+                checkText.text = "Li";
+            }
+            else
+            {
+                checkNO.SetActive(true);
+                checkYES.SetActive(false);
+            }
+
+        }
     }
 
     public void NaButton()
     {
-        if (selectedElement == "Sodium")
+        if (!elementChecked[10])
         {
-            checkNO.SetActive(false);
-            checkYES.SetActive(true);
+            if (selectedElement == "Sodium1")
+            {
+                checkNO.SetActive(false);
+                checkYES.SetActive(true);
 
-            checkText.text = "Na";
-        }
-        else
-        {
-            checkNO.SetActive(true);
-            checkYES.SetActive(false);
+                Instantiate(FinalElements[10], transform.position, Quaternion.Euler(20, -45, 0));
+
+                Destroy(element);
+
+                elementChecked[10] = true;
+
+                checkText.text = "Na";
+            }
+            else
+            {
+                checkNO.SetActive(true);
+                checkYES.SetActive(false);
+            }
         }
 
     }
 
     public void MgButton()
     {
-        if (selectedElement == "Magnesium")
+        if (!elementChecked[5])
         {
-            checkNO.SetActive(false);
-            checkYES.SetActive(true);
+            if (selectedElement == "Magnesium1")
+            {
+                checkNO.SetActive(false);
+                checkYES.SetActive(true);
 
-            checkText.text = "Mg";
-        }
-        else
-        {
-            checkNO.SetActive(true);
-            checkYES.SetActive(false);
+                Instantiate(FinalElements[5], transform.position, Quaternion.Euler(20, -45, 0));
+
+                Destroy(element);
+
+                elementChecked[5] = true;
+
+                checkText.text = "Mg";
+            }
+            else
+            {
+                checkNO.SetActive(true);
+                checkYES.SetActive(false);
+            }
         }
 
     }
 
     public void AlButton()
     {
-        if (selectedElement == "Aluminum")
+        if (!elementChecked[0])
         {
-            checkNO.SetActive(false);
-            checkYES.SetActive(true);
+            if (selectedElement == "Aluminum1")
+            {
+                checkNO.SetActive(false);
+                checkYES.SetActive(true);
 
-            checkText.text = "Al";
-        }
-        else
-        {
-            checkNO.SetActive(true);
-            checkYES.SetActive(false);
-        }
+                Instantiate(FinalElements[0], transform.position, Quaternion.Euler(20, -45, 0));
 
+                Destroy(element);
+
+                elementChecked[0] = true;
+
+                checkText.text = "Al";
+            }
+            else
+            {
+                checkNO.SetActive(true);
+                checkYES.SetActive(false);
+            }
+
+        }
     }
 
     public void KButton()
     {
-        if (selectedElement == "Potassium")
+        if (!elementChecked[9])
         {
-            checkNO.SetActive(false);
-            checkYES.SetActive(true);
+            if (selectedElement == "Potassium1")
+            {
+                checkNO.SetActive(false);
+                checkYES.SetActive(true);
 
-            checkText.text = "K";
-        }
-        else
-        {
-            checkNO.SetActive(true);
-            checkYES.SetActive(false);
-        }
+                Instantiate(FinalElements[9], transform.position, Quaternion.Euler(20, -45, 0));
 
+                Destroy(element);
+
+                elementChecked[9] = true;
+
+                checkText.text = "K";
+            }
+            else
+            {
+                checkNO.SetActive(true);
+                checkYES.SetActive(false);
+            }
+
+        }
     }
 
     public void CaButton()
     {
-        if (selectedElement == "Calcium")
+        if (!elementChecked[1])
         {
-            checkNO.SetActive(false);
-            checkYES.SetActive(true);
+            if (selectedElement == "Calcium1")
+            {
+                checkNO.SetActive(false);
+                checkYES.SetActive(true);
 
-            checkText.text = "Ca";
-        }
-        else
-        {
-            checkNO.SetActive(true);
-            checkYES.SetActive(false);
+                Instantiate(FinalElements[1], transform.position, Quaternion.Euler(20, -45, 0));
+
+                Destroy(element);
+
+                elementChecked[1] = true;
+
+                checkText.text = "Ca";
+            }
+            else
+            {
+                checkNO.SetActive(true);
+                checkYES.SetActive(false);
+            }
         }
 
     }
 
     public void NButton()
     {
-        if (selectedElement == "Nitrogen")
+        if (!elementChecked[6])
         {
-            checkNO.SetActive(false);
-            checkYES.SetActive(true);
+            if (selectedElement == "Nitrogen1")
+            {
+                checkNO.SetActive(false);
+                checkYES.SetActive(true);
 
-            checkText.text = "N";
-        }
-        else
-        {
-            checkNO.SetActive(true);
-            checkYES.SetActive(false);
+                Instantiate(FinalElements[6], transform.position, Quaternion.Euler(20, -45, 0));
+
+                Destroy(element);
+
+                elementChecked[6] = true;
+
+                checkText.text = "N";
+            }
+            else
+            {
+                checkNO.SetActive(true);
+                checkYES.SetActive(false);
+            }
+
         }
 
     }
 
     public void OButton()
     {
-        if (selectedElement == "Oxygen")
+        if (!elementChecked[7])
         {
-            checkNO.SetActive(false);
-            checkYES.SetActive(true);
+            if (selectedElement == "Oxygen1")
+            {
+                checkNO.SetActive(false);
+                checkYES.SetActive(true);
 
-            checkText.text = "O";
-        }
-        else
-        {
-            checkNO.SetActive(true);
-            checkYES.SetActive(false);
-        }
+                Instantiate(FinalElements[7], transform.position, Quaternion.Euler(20, -45, 0));
 
+                Destroy(element);
+
+                elementChecked[7] = true;
+
+                checkText.text = "O";
+            }
+            else
+            {
+                checkNO.SetActive(true);
+                checkYES.SetActive(false);
+            }
+
+        }
     }
 
     public void FButton()
     {
-        if (selectedElement == "Fluorine")
+        if (!elementChecked[3])
         {
-            checkNO.SetActive(false);
-            checkYES.SetActive(true);
+            if (selectedElement == "Fluorine1")
+            {
+                checkNO.SetActive(false);
+                checkYES.SetActive(true);
 
-            checkText.text = "F";
-        }
-        else
-        {
-            checkNO.SetActive(true);
-            checkYES.SetActive(false);
+                Instantiate(FinalElements[3], transform.position, Quaternion.Euler(20, -45, 0));
+
+                Destroy(element);
+
+                elementChecked[3] = true;
+
+                checkText.text = "F";
+            }
+            else
+            {
+                checkNO.SetActive(true);
+                checkYES.SetActive(false);
+            }
+
         }
 
     }
 
     public void ClButton()
     {
-        if (selectedElement == "Chlorine")
+        if (!elementChecked[2])
         {
-            checkNO.SetActive(false);
-            checkYES.SetActive(true);
+            if (selectedElement == "Chlorine1")
+            {
+                checkNO.SetActive(false);
+                checkYES.SetActive(true);
 
-            checkText.text = "Cl";
-        }
-        else
-        {
-            checkNO.SetActive(true);
-            checkYES.SetActive(false);
+                Instantiate(FinalElements[2], transform.position, Quaternion.Euler(20, -45, 0));
+
+                elementChecked[2] = true;
+
+                Destroy(element);
+
+                checkText.text = "Cl";
+            }
+            else
+            {
+                checkNO.SetActive(true);
+                checkYES.SetActive(false);
+            }
+
         }
 
     }
 
     public void SButton()
     {
-        if (selectedElement == "Sulfur")
+        if (!elementChecked[11])
         {
-            checkNO.SetActive(false);
-            checkYES.SetActive(true);
+            if (selectedElement == "Sulfur1")
+            {
+                checkNO.SetActive(false);
+                checkYES.SetActive(true);
 
-            checkText.text = "S";
-        }
-        else
-        {
-            checkNO.SetActive(true);
-            checkYES.SetActive(false);
+                Instantiate(FinalElements[11], transform.position, Quaternion.Euler(20, -45, 0));
+
+                Destroy(element);
+
+                elementChecked[11] = true;
+
+                checkText.text = "S";
+            }
+            else
+            {
+                checkNO.SetActive(true);
+                checkYES.SetActive(false);
+            }
+
         }
 
     }
 
     public void PButton()
     {
-        if (selectedElement == "Phosphorus")
+        if (!elementChecked[8])
         {
-            checkNO.SetActive(false);
-            checkYES.SetActive(true);
+            if (selectedElement == "Phosphorus1")
+            {
+                checkNO.SetActive(false);
+                checkYES.SetActive(true);
 
-            checkText.text = "P";
-        }
-        else
-        {
-            checkNO.SetActive(true);
-            checkYES.SetActive(false);
+                Instantiate(FinalElements[8], transform.position, Quaternion.Euler(20, -45, 0));
+
+                Destroy(element);
+
+                elementChecked[8] = true;
+
+                checkText.text = "P";
+            }
+            else
+            {
+                checkNO.SetActive(true);
+                checkYES.SetActive(false);
+            }
+
         }
 
     }
