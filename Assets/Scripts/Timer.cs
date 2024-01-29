@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -51,7 +52,7 @@ public class Timer : MonoBehaviour
         */
 
 
-        if(openingTime >= 0)
+        if(openingTime <= 0)
         {
             openingTime = 0;
         }
@@ -95,6 +96,11 @@ public class Timer : MonoBehaviour
                 subtitleTriggers.minLeft5Lv1Text();
         }
 
+        if (time >= 0)
+        {
+          // SceneManager.LoadScene("GameOverScene");
+        }
+
         if (time <= 0 && timesUpCheck == false)
         {
             timesUpCheck = true;
@@ -119,8 +125,13 @@ public class Timer : MonoBehaviour
 
     public IEnumerator lessTimer()
     {
-        yield return new WaitForSeconds(1);
-        time--;
-        openingTime--;
+        while (time > 0)
+        {
+            yield return new WaitForSeconds(1);
+            time--;
+            openingTime--;
+        }
+
     }
+     
 }

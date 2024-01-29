@@ -6,23 +6,26 @@ using UnityEngine.Experimental.XR.Interaction;
 using UnityEngine.UI;
 using TMPro;
 using JetBrains.Annotations;
+using UnityEngine.SceneManagement;
 
 public class Rotating : MonoBehaviour
 {
     public GameObject NaAtom;
     public GameObject MgAtom;
     public GameObject AlAtom;
-   // public GameObject NAtom;
-    //public GameObject OAtom;
-    //public GameObject FAtom;
+    public GameObject NAtom;
+    public GameObject OAtom;
+    public GameObject FAtom;
+    private float time = 0;
+    private float timeNeeded = 5;
    
     public int currentElement;
     public int numberOfelectrons;
     public int goodElectron;
-    /* public Transform[] NaelectronTransforms;
+     public Transform[] NaelectronTransforms;
      public Transform[] MgelectronTransforms;
      public Transform[] AlelectronTransforms;
-    */
+   
     public GameObject[] NaElectrons;
     public GameObject[] MgElectrons;
     public GameObject[] AlElectrons;
@@ -265,7 +268,7 @@ public class Rotating : MonoBehaviour
             Tabletext.text = "N";
             AtomText.text= "N<sup>3-</sup>";
         }
-       /*
+       
        if(currentElement == 5)
         {     
             NAtom.SetActive(false);
@@ -286,8 +289,14 @@ public class Rotating : MonoBehaviour
        if(currentElement == 7)
         {
             FAtom.SetActive(false);
+            Tabletext.text = "You win";
+            time += Time.deltaTime;
+           if(time <= timeNeeded)
+            {
+                //SceneManager.LoadScene("WinScene");
+            }
         }
-    */
+    
     }
 
 
