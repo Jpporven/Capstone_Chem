@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -28,7 +29,7 @@ public class Timer : MonoBehaviour
     public bool timesUpCheck = false;
     void Start()
     {
-        
+
         time = startTime;
         openingTime = openingStartTime;
         StartCoroutine(lessTimer());
@@ -51,7 +52,7 @@ public class Timer : MonoBehaviour
         */
 
 
-        if(openingTime >= 0)
+        if (openingTime <= 0)
         {
             openingTime = 0;
         }
@@ -67,10 +68,10 @@ public class Timer : MonoBehaviour
             subtitleTriggers.quickClearCheck = false;
             if (level1Clear == true)
             {
-               subtitleTriggers.minLeft20Lv2Text();
+                subtitleTriggers.minLeft20Lv2Text();
             }
-           
-               subtitleTriggers.minLeft20Lv1Text();
+
+            subtitleTriggers.minLeft20Lv1Text();
         }
 
         if (time <= 600 && time10check == false)
@@ -80,8 +81,8 @@ public class Timer : MonoBehaviour
             {
                 subtitleTriggers.minLeft10Lv2Text();
             }
-           
-                subtitleTriggers.minLeft10Lv1Text();
+
+            subtitleTriggers.minLeft10Lv1Text();
         }
 
         if (time <= 300 && time5check == false)
@@ -89,16 +90,18 @@ public class Timer : MonoBehaviour
             time5check = true;
             if (level1Clear == true)
             {
-                 subtitleTriggers.minLeft5Lv2Text();
+                subtitleTriggers.minLeft5Lv2Text();
             }
-            
-                subtitleTriggers.minLeft5Lv1Text();
+
+            subtitleTriggers.minLeft5Lv1Text();
         }
 
+        
         if (time <= 0 && timesUpCheck == false)
         {
             timesUpCheck = true;
             subtitleTriggers.minLeft0Lv1Text();
+            // SceneManager.LoadScene("GameOverScene");
         }
         Displaytime(time);
     }
@@ -119,8 +122,13 @@ public class Timer : MonoBehaviour
 
     public IEnumerator lessTimer()
     {
-        yield return new WaitForSeconds(1);
-        time--;
-        openingTime--;
+        while (time > 0)
+        {
+            yield return new WaitForSeconds(1);
+            time--;
+            openingTime--;
+        }
+
     }
+
 }
