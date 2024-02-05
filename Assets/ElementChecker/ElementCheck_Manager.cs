@@ -14,6 +14,8 @@ public class ElementCheck_Manager : MonoBehaviour
     public GameObject checkYES;
     public GameObject checkNO;
 
+    public Animator anim;
+
     public TMP_Text checkText;
 
     public bool[] elementChecked;
@@ -22,6 +24,7 @@ public class ElementCheck_Manager : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        anim.SetBool("inRange", true);
 
         if (other.gameObject.GetComponent<ExperimentBool>() != null)
         {
@@ -54,6 +57,8 @@ public class ElementCheck_Manager : MonoBehaviour
     {
         //selectedElement = "";
 
+        anim.SetBool("inRange", false);
+
         checkYES.SetActive(false);
         checkNO.SetActive(false);
     }
@@ -80,7 +85,7 @@ public class ElementCheck_Manager : MonoBehaviour
                 checkNO.SetActive(false);
                 checkYES.SetActive(true);
 
-                Instantiate(FinalElements[4], transform.position, Quaternion.Euler(20, -45, 0));
+                Instantiate(FinalElements[4], transform.position, Quaternion.Euler(0, 0, 0));
 
                 Destroy(element);
 
@@ -106,7 +111,7 @@ public class ElementCheck_Manager : MonoBehaviour
                 checkNO.SetActive(false);
                 checkYES.SetActive(true);
 
-                Instantiate(FinalElements[10], transform.position, Quaternion.Euler(20, -45, 0));
+                Instantiate(FinalElements[10], transform.position, Quaternion.Euler(0, 0, 0));
 
                 Destroy(element);
 
@@ -132,7 +137,7 @@ public class ElementCheck_Manager : MonoBehaviour
                 checkNO.SetActive(false);
                 checkYES.SetActive(true);
 
-                Instantiate(FinalElements[5], transform.position, Quaternion.Euler(20, -45, 0));
+                Instantiate(FinalElements[5], transform.position, Quaternion.Euler(0, 0, 0));
 
                 Destroy(element);
 
@@ -158,7 +163,7 @@ public class ElementCheck_Manager : MonoBehaviour
                 checkNO.SetActive(false);
                 checkYES.SetActive(true);
 
-                Instantiate(FinalElements[0], transform.position, Quaternion.Euler(20, -45, 0));
+                Instantiate(FinalElements[0], transform.position, Quaternion.Euler(0, 0, 0));
 
                 Destroy(element);
 
@@ -184,7 +189,7 @@ public class ElementCheck_Manager : MonoBehaviour
                 checkNO.SetActive(false);
                 checkYES.SetActive(true);
 
-                Instantiate(FinalElements[9], transform.position, Quaternion.Euler(20, -45, 0));
+                Instantiate(FinalElements[9], transform.position, Quaternion.Euler(0, 0, 0));
 
                 Destroy(element);
 
@@ -210,7 +215,7 @@ public class ElementCheck_Manager : MonoBehaviour
                 checkNO.SetActive(false);
                 checkYES.SetActive(true);
 
-                Instantiate(FinalElements[1], transform.position, Quaternion.Euler(20, -45, 0));
+                Instantiate(FinalElements[1], transform.position, Quaternion.Euler(0, 0, 0));
 
                 Destroy(element);
 
@@ -236,7 +241,7 @@ public class ElementCheck_Manager : MonoBehaviour
                 checkNO.SetActive(false);
                 checkYES.SetActive(true);
 
-                Instantiate(FinalElements[6], transform.position, Quaternion.Euler(20, -45, 0));
+                Instantiate(FinalElements[6], transform.position, Quaternion.Euler(0, 0, 0));
 
                 Destroy(element);
 
@@ -263,7 +268,7 @@ public class ElementCheck_Manager : MonoBehaviour
                 checkNO.SetActive(false);
                 checkYES.SetActive(true);
 
-                Instantiate(FinalElements[7], transform.position, Quaternion.Euler(20, -45, 0));
+                Instantiate(FinalElements[7], transform.position, Quaternion.Euler(0, 0, 0));
 
                 Destroy(element);
 
@@ -289,7 +294,7 @@ public class ElementCheck_Manager : MonoBehaviour
                 checkNO.SetActive(false);
                 checkYES.SetActive(true);
 
-                Instantiate(FinalElements[3], transform.position, Quaternion.Euler(20, -45, 0));
+                Instantiate(FinalElements[3], transform.position, Quaternion.Euler(0, 0, 0));
 
                 Destroy(element);
 
@@ -316,7 +321,7 @@ public class ElementCheck_Manager : MonoBehaviour
                 checkNO.SetActive(false);
                 checkYES.SetActive(true);
 
-                Instantiate(FinalElements[2], transform.position, Quaternion.Euler(20, -45, 0));
+                Instantiate(FinalElements[2], transform.position, Quaternion.Euler(0, 0, 0));
 
                 elementChecked[2] = true;
 
@@ -343,7 +348,7 @@ public class ElementCheck_Manager : MonoBehaviour
                 checkNO.SetActive(false);
                 checkYES.SetActive(true);
 
-                Instantiate(FinalElements[11], transform.position, Quaternion.Euler(20, -45, 0));
+                Instantiate(FinalElements[11], transform.position, Quaternion.Euler(0, 0, 0));
 
                 Destroy(element);
 
@@ -370,7 +375,7 @@ public class ElementCheck_Manager : MonoBehaviour
                 checkNO.SetActive(false);
                 checkYES.SetActive(true);
 
-                Instantiate(FinalElements[8], transform.position, Quaternion.Euler(20, -45, 0));
+                Instantiate(FinalElements[8], transform.position, Quaternion.Euler(0, 0, 0));
 
                 Destroy(element);
 

@@ -13,20 +13,6 @@ public class PTManager : MonoBehaviour
     public GameObject keyLooks;
     Renderer keyRend;
 
-    //Element Image references.
-    public GameObject planeAl;
-    public GameObject planeCa;
-    public GameObject planeLi;
-    public GameObject planeMg;
-    public GameObject planeNa;
-    public GameObject planeK;
-    public GameObject planeN;
-    public GameObject planeO;
-    public GameObject planeF;
-    public GameObject planeP;
-    public GameObject planeS;
-    public GameObject planeCl;
-
     //Win and bonus condition ints.
     public int winCondition = 10;
     public int achievementCondition = 12;
@@ -50,21 +36,6 @@ public class PTManager : MonoBehaviour
     {
         key.SetActive(false);
         keyRend = keyLooks.GetComponent<Renderer>();
-
-        //Setting false all element Images
-        planeAl.SetActive(false);
-        planeCa.SetActive(false);
-        planeLi.SetActive(false);
-        planeMg.SetActive(false);
-        planeNa.SetActive(false);
-        planeK.SetActive(false);
-        planeN.SetActive(false);
-        planeO.SetActive(false);
-        planeF.SetActive(false);
-        planeP.SetActive(false);
-        planeS.SetActive(false);
-        planeCl.SetActive(false);
-
     }
 
     /*************************************************************************************************
@@ -87,8 +58,6 @@ public class PTManager : MonoBehaviour
                 if (activeAluminum == false)
                 {
                     activeAluminum = true;
-                    planeAl.SetActive(true);
-
                     elementCount++;
                     keyCheck();
                 }
@@ -98,8 +67,6 @@ public class PTManager : MonoBehaviour
                 if (activeCalcium == false)
                 {
                     activeCalcium = true;
-                    planeCa.SetActive(true);
-
                     elementCount++;
                     keyCheck();
                 }
@@ -109,8 +76,6 @@ public class PTManager : MonoBehaviour
                 if (activeLithium == false)
                 {
                     activeLithium = true;
-                    planeLi.SetActive(true);
-
                     elementCount++;
                     keyCheck();
                 }
@@ -120,8 +85,6 @@ public class PTManager : MonoBehaviour
                 if (activeMagnesium == false)
                 {
                     activeMagnesium = true;
-                    planeMg.SetActive(true);
-
                     elementCount++;
                     keyCheck();
                 }
@@ -131,8 +94,6 @@ public class PTManager : MonoBehaviour
                 if (activeSodium == false)
                 {
                     activeSodium = true;
-                    planeNa.SetActive(true);
-
                     elementCount++;
                     keyCheck();
                 }
@@ -142,8 +103,6 @@ public class PTManager : MonoBehaviour
                 if (activePotassium == false)
                 {
                     activePotassium = true;
-                    planeK.SetActive(true);
-
                     elementCount++;
                     keyCheck();
                 }
@@ -153,8 +112,6 @@ public class PTManager : MonoBehaviour
                 if (activeNitrogen == false)
                 {
                     activeNitrogen = true;
-                    planeN.SetActive(true);
-
                     elementCount++;
                     keyCheck();
                 }
@@ -164,8 +121,6 @@ public class PTManager : MonoBehaviour
                 if (activeOxygen == false)
                 {
                     activeOxygen = true;
-                    planeO.SetActive(true);
-
                     elementCount++;
                     keyCheck();
                 }
@@ -175,8 +130,6 @@ public class PTManager : MonoBehaviour
                 if (activeFluorine == false)
                 {
                     activeFluorine = true;
-                    planeF.SetActive(true);
-
                     elementCount++;
                     keyCheck();
                 }
@@ -186,8 +139,6 @@ public class PTManager : MonoBehaviour
                 if (activePhosphorus == false)
                 {
                     activePhosphorus = true;
-                    planeP.SetActive(true);
-
                     elementCount++;
                     keyCheck();
                 }
@@ -197,8 +148,6 @@ public class PTManager : MonoBehaviour
                 if (activeSulfur == false)
                 {
                     activeSulfur = true;
-                    planeS.SetActive(true);
-
                     elementCount++;
                     keyCheck();
                 }
@@ -208,8 +157,6 @@ public class PTManager : MonoBehaviour
                 if (activeChlorine == false)
                 {
                     activeChlorine = true;
-                    planeCl.SetActive(true);
-
                     elementCount++;
                     keyCheck();
                 }
