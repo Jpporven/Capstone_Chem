@@ -1755,21 +1755,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lab_1
       objectReference: {fileID: 0}
-    - target: {fileID: 765744044065069216, guid: b2e68c4394bb84bceb029957b3a87e43,
-        type: 3}
-      propertyPath: m_Name
-      value: Sodium1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1060762942834385980, guid: b2e68c4394bb84bceb029957b3a87e43,
-        type: 3}
-      propertyPath: m_Name
-      value: Oxygen1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2054439413233210767, guid: b2e68c4394bb84bceb029957b3a87e43,
-        type: 3}
-      propertyPath: m_Name
-      value: Fluorine1
-      objectReference: {fileID: 0}
     - target: {fileID: 2493149405147842802, guid: b2e68c4394bb84bceb029957b3a87e43,
         type: 3}
       propertyPath: m_RootOrder
@@ -1824,57 +1809,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3289644578558727526, guid: b2e68c4394bb84bceb029957b3a87e43,
-        type: 3}
-      propertyPath: m_Name
-      value: Nitrogen1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3656247073750547615, guid: b2e68c4394bb84bceb029957b3a87e43,
-        type: 3}
-      propertyPath: m_Name
-      value: Calcium1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5047682787318147678, guid: b2e68c4394bb84bceb029957b3a87e43,
-        type: 3}
-      propertyPath: m_Name
-      value: Aluminum1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5100414552073674558, guid: b2e68c4394bb84bceb029957b3a87e43,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 60e7d69912dbc07428012275eee40527,
-        type: 3}
-    - target: {fileID: 6089186125499545996, guid: b2e68c4394bb84bceb029957b3a87e43,
-        type: 3}
-      propertyPath: m_Name
-      value: Magnesium1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6380824152422134411, guid: b2e68c4394bb84bceb029957b3a87e43,
-        type: 3}
-      propertyPath: m_Name
-      value: Chlorine1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6621363952010228351, guid: b2e68c4394bb84bceb029957b3a87e43,
-        type: 3}
-      propertyPath: m_Name
-      value: Potassium1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6906406350171650022, guid: b2e68c4394bb84bceb029957b3a87e43,
-        type: 3}
-      propertyPath: m_Name
-      value: Sulfur1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7002555516395386033, guid: b2e68c4394bb84bceb029957b3a87e43,
-        type: 3}
-      propertyPath: m_Name
-      value: Lithium1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7109670732042837924, guid: b2e68c4394bb84bceb029957b3a87e43,
-        type: 3}
-      propertyPath: m_Name
-      value: Phosphorus1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
