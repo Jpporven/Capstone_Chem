@@ -3913,6 +3913,7 @@ MonoBehaviour:
   KindleParticle: {fileID: 7173342174500018055}
   FireParticle: {fileID: 7173859200595144243}
   DFireParticle: {fileID: 7173677939645916637}
+  burned: 0
   scale: {x: 0, y: 0, z: 0}
 --- !u!1 &347912743576982826
 GameObject:
@@ -6283,12 +6284,12 @@ Transform:
   m_LocalScale: {x: 7.042745, y: 7.381535, z: 8.119689}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6011737065201270407}
-  - {fileID: 8473409624193251763}
-  - {fileID: 4491830942196334093}
-  - {fileID: 726637351839565883}
-  - {fileID: 617276571550224238}
-  - {fileID: 1608155967278195808}
+  - {fileID: 5851369134378694933}
+  - {fileID: 7370607844703313177}
+  - {fileID: 5612330776731268453}
+  - {fileID: 239036693724635544}
+  - {fileID: 8653089499561952645}
+  - {fileID: 2707565183368705856}
   - {fileID: 362304660092944282}
   m_Father: {fileID: 2493149405147842802}
   m_RootOrder: -1
@@ -8121,7 +8122,7 @@ GameObject:
   - component: {fileID: 9016566616653990452}
   - component: {fileID: 1564712022513253121}
   m_Layer: 3
-  m_Name: Sodium
+  m_Name: Sodium1
   m_TagString: Element
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8134,15 +8135,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 765744044065069216}
-  m_LocalRotation: {x: -0, y: 0.0903126, z: -0, w: 0.9959135}
-  m_LocalPosition: {x: -0.7338894, y: -0.0323, z: -0.2684643}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.29999974, y: -0.65999985, z: 0.03999813}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2707565183368705856}
   - {fileID: 742745207597904610}
   - {fileID: 8667080276943144051}
-  m_Father: {fileID: 6695947085732753212}
+  m_Father: {fileID: 2707565183368705856}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 10.363, z: 0}
 --- !u!33 &3292439698582740047
@@ -38985,7 +38985,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5612330776731268453}
   m_Layer: 0
-  m_Name: LithiumAttach
+  m_Name: LithiumPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38998,12 +38998,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2652526548355240744}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00999999, y: 0.03097105, z: -0.008000001}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalRotation: {x: -0, y: 0.4851912, z: -0, w: 0.8744081}
+  m_LocalPosition: {x: -0.99965984, y: 0.035742108, z: -0.0076967515}
+  m_LocalScale: {x: 0.099999994, y: 0.1, z: 0.099999994}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4491830942196334093}
+  m_Children:
+  - {fileID: 4491830942196334093}
+  m_Father: {fileID: 6695947085732753212}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2653086633197532506
@@ -48333,7 +48334,7 @@ GameObject:
   - component: {fileID: 2957141438001272513}
   - component: {fileID: 3370472420866931073}
   m_Layer: 3
-  m_Name: Calcium
+  m_Name: Calcium1
   m_TagString: Element
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48346,15 +48347,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3656247073750547615}
-  m_LocalRotation: {x: -0, y: 0.12394002, z: -0, w: 0.9922897}
-  m_LocalPosition: {x: -1.0994614, y: -0.0274, z: -0.10025321}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.28200272, y: -0.9, z: 0.18300083}
+  m_LocalScale: {x: 30, y: 30, z: 30}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7370607844703313177}
   - {fileID: 6578762676228749924}
   - {fileID: 2725133494099012618}
-  m_Father: {fileID: 6695947085732753212}
+  m_Father: {fileID: 7370607844703313177}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 14.239, z: 0}
 --- !u!33 &1057821989870658368
@@ -48696,7 +48696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2707565183368705856}
   m_Layer: 0
-  m_Name: SodiumAttach
+  m_Name: SodiumPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48709,12 +48709,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3663769871879023045}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.015000105, y: 0.033, z: -0.002000004}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalRotation: {x: -0, y: 0.0903126, z: -0, w: 0.9959135}
+  m_LocalPosition: {x: -0.7641195, y: 0.033700015, z: -0.26700237}
+  m_LocalScale: {x: 0.099999994, y: 0.1, z: 0.099999994}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1608155967278195808}
+  m_Children:
+  - {fileID: 1608155967278195808}
+  m_Father: {fileID: 6695947085732753212}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3664615224135064932
@@ -55867,7 +55868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7370607844703313177}
   m_Layer: 0
-  m_Name: CalciumAttach
+  m_Name: CalciumPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55880,12 +55881,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3912916334147970653}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0094, y: 0.03, z: -0.0061}
-  m_LocalScale: {x: 0.033333335, y: 0.033333335, z: 0.033333335}
+  m_LocalRotation: {x: -0, y: 0.12394005, z: -0, w: 0.9922898}
+  m_LocalPosition: {x: -1.1206849, y: 0.03260003, z: -0.10745443}
+  m_LocalScale: {x: 0.06666666, y: 0.06666667, z: 0.066666655}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8473409624193251763}
+  m_Children:
+  - {fileID: 8473409624193251763}
+  m_Father: {fileID: 6695947085732753212}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3920749168620638566
@@ -67614,7 +67616,7 @@ GameObject:
   - component: {fileID: 5653534966982556443}
   - component: {fileID: 652797623565443185}
   m_Layer: 3
-  m_Name: Aluminum
+  m_Name: Aluminum1
   m_TagString: Element
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67627,15 +67629,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5047682787318147678}
-  m_LocalRotation: {x: 0, y: -0.2958747, z: 0, w: 0.9552268}
-  m_LocalPosition: {x: -1.0836, y: -0.0288, z: -0.2545}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.19999819, y: -0.6194209, z: 0.16000317}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5851369134378694933}
   - {fileID: 2758245915363160653}
   - {fileID: 3884988577216600712}
-  m_Father: {fileID: 6695947085732753212}
+  m_Father: {fileID: 5851369134378694933}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: -34.42, z: 0}
 --- !u!33 &8196512414227876883
@@ -78738,7 +78739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8653089499561952645}
   m_Layer: 0
-  m_Name: MagnesiumAttach
+  m_Name: MagnesiumPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78751,12 +78752,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6088033949405315582}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.009, y: 0.0244, z: -0.0107}
-  m_LocalScale: {x: 0.050000016, y: 0.050000004, z: 0.049999997}
+  m_LocalRotation: {x: -0, y: -0.37966594, z: -0, w: 0.92512363}
+  m_LocalPosition: {x: -0.72622424, y: 0.029400006, z: -0.12074342}
+  m_LocalScale: {x: 0.10000004, y: 0.10000001, z: 0.1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 617276571550224238}
+  m_Children:
+  - {fileID: 617276571550224238}
+  m_Father: {fileID: 6695947085732753212}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6089186125499545996
@@ -78775,7 +78777,7 @@ GameObject:
   - component: {fileID: 7747276672068285240}
   - component: {fileID: 9159618831495517383}
   m_Layer: 3
-  m_Name: Magnesium
+  m_Name: Magnesium1
   m_TagString: Element
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78788,15 +78790,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6089186125499545996}
-  m_LocalRotation: {x: -0, y: -0.37966594, z: -0, w: 0.92512363}
-  m_LocalPosition: {x: -0.7284463, y: -0.0194, z: -0.09286834}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.18000019, y: -0.4880001, z: 0.21399844}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8653089499561952645}
   - {fileID: 6514911820578915553}
   - {fileID: 7076788115351036503}
-  m_Father: {fileID: 6695947085732753212}
+  m_Father: {fileID: 8653089499561952645}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: -44.626, z: 0}
 --- !u!33 &5211233488263582913
@@ -89519,7 +89520,7 @@ GameObject:
   - component: {fileID: 6946038868971452703}
   - component: {fileID: 2678120538152819590}
   m_Layer: 3
-  m_Name: Potassium
+  m_Name: Potassium1
   m_TagString: Element
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89532,16 +89533,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6621363952010228351}
-  m_LocalRotation: {x: -0, y: -0.5784946, z: -0, w: 0.8156863}
-  m_LocalPosition: {x: -0.8547, y: -0.0227, z: 0.01}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.1899986, y: -0.544, z: 0.15999904}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 239036693724635544}
   - {fileID: 8347239968817282082}
   - {fileID: 6950932248970852078}
   - {fileID: 3225408432107257373}
-  m_Father: {fileID: 6695947085732753212}
+  m_Father: {fileID: 239036693724635544}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: -70.689, z: 0}
 --- !u!33 &237040343445082686
@@ -91309,7 +91309,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 356e2506959a74bdb88a74324b8aa649, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 60e7d69912dbc07428012275eee40527, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -93610,7 +93610,7 @@ GameObject:
   - component: {fileID: 1891645063951680373}
   - component: {fileID: 3352325052967280171}
   m_Layer: 3
-  m_Name: Lithium
+  m_Name: Lithium1
   m_TagString: Element
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93623,15 +93623,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7002555516395386033}
-  m_LocalRotation: {x: 0, y: 0.4851912, z: 0, w: 0.8744081}
-  m_LocalPosition: {x: -0.9755, y: -0.0262, z: -0.0162}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.2000012, y: -0.61942095, z: 0.16000053}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5612330776731268453}
   - {fileID: 2136788586464121814}
   - {fileID: 8471536257217197103}
-  m_Father: {fileID: 6695947085732753212}
+  m_Father: {fileID: 5612330776731268453}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 58.05, z: 0}
 --- !u!33 &1576165398582165005
@@ -112111,7 +112110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5851369134378694933}
   m_Layer: 0
-  m_Name: AluminumAttach
+  m_Name: AluminumPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -112124,12 +112123,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8376016481834195261}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00999999, y: 0.03097105, z: -0.008000001}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalRotation: {x: -0, y: -0.2958747, z: -0, w: 0.9552268}
+  m_LocalPosition: {x: -1.0910542, y: 0.033142075, z: -0.27900386}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.099999994}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6011737065201270407}
+  m_Children:
+  - {fileID: 6011737065201270407}
+  m_Father: {fileID: 6695947085732753212}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8376137682529269809
@@ -118745,7 +118745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 239036693724635544}
   m_Layer: 0
-  m_Name: PotassiumAttach
+  m_Name: PotassiumPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -118758,12 +118758,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8538965725100246405}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0095, y: 0.0272, z: -0.008}
-  m_LocalScale: {x: 0.050000016, y: 0.05, z: 0.049999993}
+  m_LocalRotation: {x: -0, y: -0.5784946, z: -0, w: 0.8156863}
+  m_LocalPosition: {x: -0.8458832, y: 0.022800026, z: -0.013222166}
+  m_LocalScale: {x: 0.10000002, y: 0.1, z: 0.10000001}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 726637351839565883}
+  m_Children:
+  - {fileID: 726637351839565883}
+  m_Father: {fileID: 6695947085732753212}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8544426294740016400
@@ -121605,6 +121606,7 @@ MonoBehaviour:
   KindleParticle: {fileID: 1002725727948939423}
   FireParticle: {fileID: 1002081566761441579}
   DFireParticle: {fileID: 1002252243871388357}
+  burned: 0
   scale: {x: 0, y: 0, z: 0}
 --- !u!1 &8876173672946767569
 GameObject:
@@ -129558,6 +129560,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5492182792573210194, guid: 3526c972e5ab1074ca808e32c4c430e7,
         type: 3}
+      propertyPath: m_Name
+      value: Oxygen1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5492182792573210194, guid: 3526c972e5ab1074ca808e32c4c430e7,
+        type: 3}
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
@@ -129635,6 +129642,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Updated Test Tubes
+      objectReference: {fileID: 0}
+    - target: {fileID: 8009541095045480200, guid: 3526c972e5ab1074ca808e32c4c430e7,
+        type: 3}
+      propertyPath: m_Name
+      value: Nitrogen1
       objectReference: {fileID: 0}
     - target: {fileID: 8009541095045480200, guid: 3526c972e5ab1074ca808e32c4c430e7,
         type: 3}
@@ -130060,7 +130072,7 @@ PrefabInstance:
     - target: {fileID: 6448430989608586034, guid: 58b0e797ed574d945a337a9aa164dd9a,
         type: 3}
       propertyPath: m_Name
-      value: Fluorine
+      value: Fluorine1
       objectReference: {fileID: 0}
     - target: {fileID: 6448430989608586034, guid: 58b0e797ed574d945a337a9aa164dd9a,
         type: 3}
@@ -130736,7 +130748,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b535b47026efe4666b79a4d8737946d9,
         type: 3}
       propertyPath: m_Name
-      value: Sulfur
+      value: Sulfur1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b535b47026efe4666b79a4d8737946d9,
         type: 3}
@@ -131389,7 +131401,7 @@ PrefabInstance:
     - target: {fileID: 884108941810303978, guid: 56551dee56eecf445b0aa0cb23313913,
         type: 3}
       propertyPath: m_Name
-      value: Chlorine
+      value: Chlorine1
       objectReference: {fileID: 0}
     - target: {fileID: 884108941810303978, guid: 56551dee56eecf445b0aa0cb23313913,
         type: 3}
@@ -133023,7 +133035,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 33dd4dbf6aace486f9623c36f9653945,
         type: 3}
       propertyPath: m_Name
-      value: Phosphorus
+      value: Phosphorus1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 33dd4dbf6aace486f9623c36f9653945,
         type: 3}
