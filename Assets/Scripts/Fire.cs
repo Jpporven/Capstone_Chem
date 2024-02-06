@@ -9,11 +9,13 @@ public class Fire : MonoBehaviour
     public GameObject DFireParticle;
 
     public bool burned;
+    public ExperimentBool ExperimentBool;
     public Vector3 scale;
 
     // Start is called before the first frame update
     void Start()
     {
+        burned = false;
         KindleParticle.GetComponent<Transform>();
         FireParticle.GetComponent<Transform>();
         DFireParticle.GetComponent<Transform>();
@@ -27,29 +29,30 @@ public class Fire : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Oxygen" && burned == true)
+        if (other.name == "Oxygen1" && burned == true)
         {
             scale = new Vector3(0.03f, 0.03f, 0.03f);
 
-            KindleParticle.SetActive(true);
-            FireParticle.SetActive(true);
-            DFireParticle.SetActive(true);
+        
 
             FireParticle.transform.localScale = scale;
             KindleParticle.transform.localScale = scale;
             DFireParticle.transform.localScale = scale;
         }
-        else if (other.name == "Nitrogen" && burned == true)
+        else if (other.name == "Nitrogen1" && burned == true)
         {
             KindleParticle.SetActive(false);
             FireParticle.SetActive(false);
             DFireParticle.SetActive(false);
+            burned = false;
         }    
         else if(other.name == "BunsenBurner")
         {
             KindleParticle.SetActive(true);
             FireParticle.SetActive(true);
             DFireParticle.SetActive(true);
+            burned = true;
+            
         }
     }
 
