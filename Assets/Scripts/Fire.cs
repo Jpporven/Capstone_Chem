@@ -31,7 +31,7 @@ public class Fire : MonoBehaviour
     {
         if (other.name == "Oxygen1" && burned == true)
         {
-            scale = new Vector3(0.03f, 0.03f, 0.03f);
+            scale = new Vector3(0.05f, 0.05f, 0.05f);
 
         
 
