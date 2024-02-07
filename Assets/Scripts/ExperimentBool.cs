@@ -33,7 +33,7 @@ public class ExperimentBool : MonoBehaviour
         {
             hasBeenExperimentedOn = true;
         }
-        if(gameObject.name == "Nitrogen" || gameObject.name == "Oxygen")
+        if(gameObject.name == "Nitrogen1" || gameObject.name == "Oxygen1")
         {
             if(other.name == splint)
             {

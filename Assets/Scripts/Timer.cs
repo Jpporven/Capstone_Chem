@@ -32,24 +32,13 @@ public class Timer : MonoBehaviour
 
         time = startTime;
         openingTime = openingStartTime;
-        StartCoroutine(lessTimer());
+        StartCoroutine("lessTimer");
         //Menu.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        /*
-        if(openingTime >= -1)
-        {
-            openingTime -= Time.deltaTime;
-        }
-
-        if (time > 0)
-        {
-            time -= Time.deltaTime;
-        }
-        */
 
 
         if (openingTime <= 0)
@@ -96,10 +85,7 @@ public class Timer : MonoBehaviour
             subtitleTriggers.minLeft5Lv1Text();
         }
 
-        if (time >= 0)
-        {
-            // SceneManager.LoadScene("GameOverScene");
-        }
+      
 
         if (time <= 0 && timesUpCheck == false)
         {
@@ -130,7 +116,9 @@ public class Timer : MonoBehaviour
             yield return new WaitForSeconds(1);
             time--;
             openingTime--;
+            yield break;
         }
+
 
     }
 
