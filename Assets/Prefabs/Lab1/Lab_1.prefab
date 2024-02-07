@@ -3642,7 +3642,7 @@ GameObject:
   - component: {fileID: 4449544932506954042}
   - component: {fileID: 4148513981500556940}
   m_Layer: 3
-  m_Name: Splint (2)
+  m_Name: Splint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8331,7 +8331,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 0
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -48543,7 +48543,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 0
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -67846,7 +67846,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 0
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -78986,7 +78986,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 0
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -89730,7 +89730,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 0
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -93840,7 +93840,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 0
+  m_MovementType: 1
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -121334,7 +121334,7 @@ GameObject:
   - component: {fileID: 5513146501913817576}
   - component: {fileID: 2859048491492568714}
   m_Layer: 3
-  m_Name: Splint (1)
+  m_Name: Splint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -125380,7 +125380,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nob
       value: 
-      objectReference: {fileID: 4690078066581886014}
+      objectReference: {fileID: 2400165027194840579}
     - target: {fileID: 4447711890735625854, guid: 6f9046ea606af44bbb0fe592f41f4126,
         type: 3}
       propertyPath: isOn
@@ -128774,6 +128774,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2734f09f087bf4f99b7e61832a5ce031, type: 3}
+--- !u!114 &2400165027194840579 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1296868601149413927, guid: 2734f09f087bf4f99b7e61832a5ce031,
+    type: 3}
+  m_PrefabInstance: {fileID: 3508443193842465828}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65a8500fa86faa04596fb5f9d40efeae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &3431751757311569741 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2238419261976286057, guid: 2734f09f087bf4f99b7e61832a5ce031,

@@ -597,18 +597,6 @@ MonoBehaviour:
   elementCount: 0
   key: {fileID: 7522974385569010032}
   keyLooks: {fileID: 5171176345157419978}
-  planeAl: {fileID: 7404810361206676307}
-  planeCa: {fileID: 9093513842896574640}
-  planeLi: {fileID: 4126438623392710933}
-  planeMg: {fileID: 2061871764051195787}
-  planeNa: {fileID: 5433655857290500864}
-  planeK: {fileID: 8348584889795612894}
-  planeN: {fileID: 5434755440965754616}
-  planeO: {fileID: 8906243782468142043}
-  planeF: {fileID: 3712324141622167849}
-  planeP: {fileID: 8959623459011700047}
-  planeS: {fileID: 7525842082950004719}
-  planeCl: {fileID: 3787911559696701266}
   winCondition: 10
   achievementCondition: 12
   activeAluminum: 0
