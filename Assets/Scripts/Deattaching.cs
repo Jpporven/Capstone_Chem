@@ -58,7 +58,7 @@ public class Deattaching : MonoBehaviour
         else
         {
             pauseMenu.SetActive(false);
-            StartCoroutine(timer.lessTimer());
+           // StartCoroutine(timer.lessTimer());
         }
             
         
