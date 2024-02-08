@@ -31,11 +31,40 @@ public class PTManager : MonoBehaviour
     public bool activeSulfur = false; //11
     public bool activeChlorine = false; //12
 
+    //Panels of the different elements.
+    public GameObject panelAluminum;
+    public GameObject panelCalcium;
+    public GameObject panelLithium;
+    public GameObject panelMagnesium;
+    public GameObject panelSodium;
+    public GameObject panelPotassium;
+    public GameObject panelNitrogen;
+    public GameObject panelOxygen;
+    public GameObject panelFluorine;
+    public GameObject panelPhosphorus;
+    public GameObject panelSulfur;
+    public GameObject panelChlorine;
+
     //Gets the renderer of the key at the start of the game to be able to change its color and sets it to false.
     private void Start()
     {
+        //Deactivate key and get the renderer.
         key.SetActive(false);
         keyRend = keyLooks.GetComponent<Renderer>();
+
+        //Deactivate the panels.
+        panelAluminum.SetActive(false);
+        panelCalcium.SetActive(false);
+        panelLithium.SetActive(false);
+        panelMagnesium.SetActive(false);
+        panelSodium.SetActive(false);
+        panelPotassium.SetActive(false);
+        panelNitrogen.SetActive(false);
+        panelOxygen.SetActive(false);
+        panelFluorine.SetActive(false);
+        panelPhosphorus.SetActive(false);
+        panelSulfur.SetActive(false);
+        panelChlorine.SetActive(false);
     }
 
     /*************************************************************************************************
@@ -58,6 +87,7 @@ public class PTManager : MonoBehaviour
                 if (activeAluminum == false)
                 {
                     activeAluminum = true;
+                    panelAluminum.SetActive(true);
                     elementCount++;
                     keyCheck();
                 }
@@ -67,6 +97,7 @@ public class PTManager : MonoBehaviour
                 if (activeCalcium == false)
                 {
                     activeCalcium = true;
+                    panelCalcium.SetActive(true);
                     elementCount++;
                     keyCheck();
                 }
@@ -76,6 +107,7 @@ public class PTManager : MonoBehaviour
                 if (activeLithium == false)
                 {
                     activeLithium = true;
+                    panelLithium.SetActive(true);
                     elementCount++;
                     keyCheck();
                 }
@@ -85,6 +117,7 @@ public class PTManager : MonoBehaviour
                 if (activeMagnesium == false)
                 {
                     activeMagnesium = true;
+                    panelMagnesium.SetActive(true);
                     elementCount++;
                     keyCheck();
                 }
@@ -94,6 +127,7 @@ public class PTManager : MonoBehaviour
                 if (activeSodium == false)
                 {
                     activeSodium = true;
+                    panelSodium.SetActive(true);
                     elementCount++;
                     keyCheck();
                 }
@@ -103,6 +137,7 @@ public class PTManager : MonoBehaviour
                 if (activePotassium == false)
                 {
                     activePotassium = true;
+                    panelPotassium.SetActive(true);
                     elementCount++;
                     keyCheck();
                 }
@@ -112,6 +147,7 @@ public class PTManager : MonoBehaviour
                 if (activeNitrogen == false)
                 {
                     activeNitrogen = true;
+                    panelNitrogen.SetActive(true);
                     elementCount++;
                     keyCheck();
                 }
@@ -121,6 +157,7 @@ public class PTManager : MonoBehaviour
                 if (activeOxygen == false)
                 {
                     activeOxygen = true;
+                    panelOxygen.SetActive(true);
                     elementCount++;
                     keyCheck();
                 }
@@ -130,6 +167,7 @@ public class PTManager : MonoBehaviour
                 if (activeFluorine == false)
                 {
                     activeFluorine = true;
+                    panelFluorine.SetActive(true);
                     elementCount++;
                     keyCheck();
                 }
@@ -139,6 +177,7 @@ public class PTManager : MonoBehaviour
                 if (activePhosphorus == false)
                 {
                     activePhosphorus = true;
+                    panelPhosphorus.SetActive(true);
                     elementCount++;
                     keyCheck();
                 }
@@ -148,6 +187,7 @@ public class PTManager : MonoBehaviour
                 if (activeSulfur == false)
                 {
                     activeSulfur = true;
+                    panelSulfur.SetActive(true);
                     elementCount++;
                     keyCheck();
                 }
@@ -157,6 +197,7 @@ public class PTManager : MonoBehaviour
                 if (activeChlorine == false)
                 {
                     activeChlorine = true;
+                    panelChlorine.SetActive(true);
                     elementCount++;
                     keyCheck();
                 }
