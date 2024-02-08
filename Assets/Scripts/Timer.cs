@@ -116,7 +116,7 @@ public class Timer : MonoBehaviour
             yield return new WaitForSeconds(1);
             time--;
             openingTime--;
-            yield break;
+           ;
         }
 
 
