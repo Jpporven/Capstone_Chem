@@ -128,17 +128,17 @@ MonoBehaviour:
   tongs: {fileID: 0}
   tongRespawner: {fileID: 8144179810415063595}
   aluminum: {fileID: 0}
-  aluminumRespawner: {fileID: 0}
+  aluminumRespawner: {fileID: 2341093863288056226}
   calcium: {fileID: 0}
-  calciumRespawner: {fileID: 0}
+  calciumRespawner: {fileID: 6819456755903847686}
   lithium: {fileID: 0}
-  lithiumRespawner: {fileID: 0}
+  lithiumRespawner: {fileID: 7749569359332196703}
   potassium: {fileID: 0}
-  potassiumRespawner: {fileID: 0}
+  potassiumRespawner: {fileID: 705346598565017889}
   magnesium: {fileID: 0}
-  magnesiumRespawner: {fileID: 0}
+  magnesiumRespawner: {fileID: 929776749286288842}
   sodium: {fileID: 0}
-  sodiumRespawner: {fileID: 0}
+  sodiumRespawner: {fileID: 8811978351816905505}
 --- !u!1 &705346598565017889
 GameObject:
   m_ObjectHideFlags: 0

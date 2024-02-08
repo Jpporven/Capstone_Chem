@@ -43,7 +43,7 @@ Transform:
   - {fileID: 1499563039272847645}
   - {fileID: 7850976811732602996}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2061871764051195787
 GameObject:
@@ -611,6 +611,18 @@ MonoBehaviour:
   activePhosphorus: 0
   activeSulfur: 0
   activeChlorine: 0
+  panelAluminum: {fileID: 7404810361206676307}
+  panelCalcium: {fileID: 9093513842896574640}
+  panelLithium: {fileID: 4126438623392710933}
+  panelMagnesium: {fileID: 2061871764051195787}
+  panelSodium: {fileID: 5433655857290500864}
+  panelPotassium: {fileID: 8348584889795612894}
+  panelNitrogen: {fileID: 5434755440965754616}
+  panelOxygen: {fileID: 8906243782468142043}
+  panelFluorine: {fileID: 3712324141622167849}
+  panelPhosphorus: {fileID: 8959623459011700047}
+  panelSulfur: {fileID: 7525842082950004719}
+  panelChlorine: {fileID: 3787911559696701266}
 --- !u!1 &7404810361206676307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1594,6 +1606,21 @@ PrefabInstance:
       propertyPath: elementParticle
       value: ParticlesAluminum
       objectReference: {fileID: 0}
+    - target: {fileID: 4251638727825635424, guid: 6d3f1a064e68ae449860c332d90bde96,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251638727825635424, guid: 6d3f1a064e68ae449860c332d90bde96,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251638727825635424, guid: 6d3f1a064e68ae449860c332d90bde96,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
     - target: {fileID: 5113789438576277920, guid: 6d3f1a064e68ae449860c332d90bde96,
         type: 3}
       propertyPath: m_RootOrder
@@ -1687,6 +1714,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113799484858355229}
     m_Modifications:
+    - target: {fileID: 1963588132062972827, guid: 6d3f1a064e68ae449860c332d90bde96,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 26ac088a7d53ed34e97af45213cc531e, type: 2}
     - target: {fileID: 2260739559242502062, guid: 6d3f1a064e68ae449860c332d90bde96,
         type: 3}
       propertyPath: m_Name
@@ -1696,17 +1728,17 @@ PrefabInstance:
         type: 3}
       propertyPath: red
       value: 
-      objectReference: {fileID: 2100000, guid: 6551a16a10170014f8e81f7d5c64d8a7, type: 2}
+      objectReference: {fileID: 2100000, guid: 26ac088a7d53ed34e97af45213cc531e, type: 2}
     - target: {fileID: 2703764637040304313, guid: 6d3f1a064e68ae449860c332d90bde96,
         type: 3}
       propertyPath: blue
       value: 
-      objectReference: {fileID: 2100000, guid: b8e6c3f04343b1348b078c6238772650, type: 2}
+      objectReference: {fileID: 2100000, guid: 26ac088a7d53ed34e97af45213cc531e, type: 2}
     - target: {fileID: 2703764637040304313, guid: 6d3f1a064e68ae449860c332d90bde96,
         type: 3}
       propertyPath: gray
       value: 
-      objectReference: {fileID: 2100000, guid: 3e25b7802f69c54429172803ddc90c51, type: 2}
+      objectReference: {fileID: 2100000, guid: 26ac088a7d53ed34e97af45213cc531e, type: 2}
     - target: {fileID: 2703764637040304313, guid: 6d3f1a064e68ae449860c332d90bde96,
         type: 3}
       propertyPath: green
@@ -2351,6 +2383,21 @@ PrefabInstance:
       propertyPath: elementParticle
       value: ParticlesCalcium
       objectReference: {fileID: 0}
+    - target: {fileID: 4251638727825635424, guid: 6d3f1a064e68ae449860c332d90bde96,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251638727825635424, guid: 6d3f1a064e68ae449860c332d90bde96,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251638727825635424, guid: 6d3f1a064e68ae449860c332d90bde96,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
     - target: {fileID: 5113789438576277920, guid: 6d3f1a064e68ae449860c332d90bde96,
         type: 3}
       propertyPath: m_RootOrder
@@ -2834,6 +2881,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DoorKey
+      objectReference: {fileID: 0}
+    - target: {fileID: 784072565763923235, guid: 52b0efbba0ab54548af1006d60566fe1,
+        type: 3}
+      propertyPath: m_TagString
+      value: Key
       objectReference: {fileID: 0}
     - target: {fileID: 1846707592700975750, guid: 52b0efbba0ab54548af1006d60566fe1,
         type: 3}
@@ -3358,6 +3410,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113799484858355229}
     m_Modifications:
+    - target: {fileID: 1963588132062972827, guid: 6d3f1a064e68ae449860c332d90bde96,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 26ac088a7d53ed34e97af45213cc531e, type: 2}
     - target: {fileID: 2260739559242502062, guid: 6d3f1a064e68ae449860c332d90bde96,
         type: 3}
       propertyPath: m_Name
@@ -3367,17 +3424,17 @@ PrefabInstance:
         type: 3}
       propertyPath: red
       value: 
-      objectReference: {fileID: 2100000, guid: 6551a16a10170014f8e81f7d5c64d8a7, type: 2}
+      objectReference: {fileID: 2100000, guid: 26ac088a7d53ed34e97af45213cc531e, type: 2}
     - target: {fileID: 2703764637040304313, guid: 6d3f1a064e68ae449860c332d90bde96,
         type: 3}
       propertyPath: blue
       value: 
-      objectReference: {fileID: 2100000, guid: b8e6c3f04343b1348b078c6238772650, type: 2}
+      objectReference: {fileID: 2100000, guid: 26ac088a7d53ed34e97af45213cc531e, type: 2}
     - target: {fileID: 2703764637040304313, guid: 6d3f1a064e68ae449860c332d90bde96,
         type: 3}
       propertyPath: gray
       value: 
-      objectReference: {fileID: 2100000, guid: 3e25b7802f69c54429172803ddc90c51, type: 2}
+      objectReference: {fileID: 2100000, guid: 26ac088a7d53ed34e97af45213cc531e, type: 2}
     - target: {fileID: 2703764637040304313, guid: 6d3f1a064e68ae449860c332d90bde96,
         type: 3}
       propertyPath: green
@@ -3416,7 +3473,7 @@ PrefabInstance:
     - target: {fileID: 2703764637040304313, guid: 6d3f1a064e68ae449860c332d90bde96,
         type: 3}
       propertyPath: element
-      value: Fluorine(Clone)
+      value: Flourine(Clone)
       objectReference: {fileID: 0}
     - target: {fileID: 2703764637040304313, guid: 6d3f1a064e68ae449860c332d90bde96,
         type: 3}
