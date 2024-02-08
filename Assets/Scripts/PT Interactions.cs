@@ -14,8 +14,6 @@ public class PTInteractions : MonoBehaviour
 
     //Names of the expected GameObject.
     public string element;
-    public string elementAttach;
-    public string elementParticle;
 
     bool gotItRight = false;
 
@@ -58,7 +56,7 @@ public class PTInteractions : MonoBehaviour
              * Example: other.name == "Aluminum" || other.name == "AluminumAttach" || other.name == "ParticlesAluminum" *
              * Anything else with another name it's wrong (color turns red).                                            *
              ************************************************************************************************************/
-            if (other.name == element || other.name == elementAttach || other.name == elementParticle)
+            if (other.name == element)
             {
                 rend.material = green;
 
