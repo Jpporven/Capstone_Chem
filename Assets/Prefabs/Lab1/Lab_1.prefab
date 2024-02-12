@@ -5940,7 +5940,7 @@ Transform:
   - {fileID: 4984462343254127931}
   - {fileID: 8774872132533107845}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &569758172550459352
 GameObject:
@@ -20878,7 +20878,7 @@ GameObject:
   - component: {fileID: 2929633743480904267}
   - component: {fileID: 7760884830561667323}
   - component: {fileID: 2108971139791919921}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ParticlesSodium
   m_TagString: Element
   m_Icon: {fileID: 0}
@@ -30626,7 +30626,7 @@ GameObject:
   - component: {fileID: 862594569092772122}
   - component: {fileID: 8747529728346927292}
   - component: {fileID: 4853250489064765509}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ParticlesPotassium
   m_TagString: Element
   m_Icon: {fileID: 0}
@@ -38983,7 +38983,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5612330776731268453}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LithiumPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48694,7 +48694,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2707565183368705856}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SodiumPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50849,7 +50849,7 @@ GameObject:
   - component: {fileID: 9048719925395296550}
   - component: {fileID: 8346101787663951019}
   - component: {fileID: 8343461917428621573}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ParticlesAluminum
   m_TagString: Element
   m_Icon: {fileID: 0}
@@ -55866,7 +55866,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7370607844703313177}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CalciumPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78737,7 +78737,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8653089499561952645}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MagnesiumPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81751,7 +81751,7 @@ GameObject:
   - component: {fileID: 1225490811954912958}
   - component: {fileID: 1599021913960110999}
   - component: {fileID: 8529025852063500004}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ParticlesCalcium
   m_TagString: Element
   m_Icon: {fileID: 0}
@@ -100520,7 +100520,7 @@ GameObject:
   - component: {fileID: 6368192642401481279}
   - component: {fileID: 6957353546948205954}
   - component: {fileID: 6205509359614176339}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ParticlesMagnesium
   m_TagString: Element
   m_Icon: {fileID: 0}
@@ -112108,7 +112108,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5851369134378694933}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AluminumPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113366,7 +113366,7 @@ GameObject:
   - component: {fileID: 2119907140201306480}
   - component: {fileID: 5010414324117538839}
   - component: {fileID: 5421867128592257928}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ParticlesLithium
   m_TagString: Element
   m_Icon: {fileID: 0}
@@ -118743,7 +118743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 239036693724635544}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PotassiumPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125513,6 +125513,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoverStateVisuals_OnlyHover
       objectReference: {fileID: 0}
+    - target: {fileID: 2483318160498232355, guid: 82bfca775e5a52f4caa5cdb4a40e48e7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -126259,6 +126264,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoverStateVisuals_OnlyHover (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2483318160498232355, guid: 82bfca775e5a52f4caa5cdb4a40e48e7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -126446,6 +126456,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HoverStateVisuals_OnlyHover
+      objectReference: {fileID: 0}
+    - target: {fileID: 2483318160498232355, guid: 82bfca775e5a52f4caa5cdb4a40e48e7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -129233,6 +129248,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoverStateVisuals_OnlyHover
       objectReference: {fileID: 0}
+    - target: {fileID: 2483318160498232355, guid: 82bfca775e5a52f4caa5cdb4a40e48e7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -129576,6 +129596,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HoverStateVisuals_OnlyHover
+      objectReference: {fileID: 0}
+    - target: {fileID: 2483318160498232355, guid: 82bfca775e5a52f4caa5cdb4a40e48e7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -131634,6 +131659,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoverStateVisuals_OnlyHover
       objectReference: {fileID: 0}
+    - target: {fileID: 2483318160498232355, guid: 82bfca775e5a52f4caa5cdb4a40e48e7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -131712,6 +131742,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HoverStateVisuals_OnlyHover
+      objectReference: {fileID: 0}
+    - target: {fileID: 2483318160498232355, guid: 82bfca775e5a52f4caa5cdb4a40e48e7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

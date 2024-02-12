@@ -408,51 +408,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR_Hands_Timer_HJT
       objectReference: {fileID: 0}
-    - target: {fileID: 1045967208447355226, guid: aeda425acf2fa474c8e3c8d2522f550d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1730249663252526016, guid: aeda425acf2fa474c8e3c8d2522f550d,
         type: 3}
       propertyPath: tong
       value: 
       objectReference: {fileID: 109101828}
-    - target: {fileID: 1730249663252526016, guid: aeda425acf2fa474c8e3c8d2522f550d,
-        type: 3}
-      propertyPath: tong.Array.data[0]
-      value: 
-      objectReference: {fileID: 846858421}
-    - target: {fileID: 1730249663252526016, guid: aeda425acf2fa474c8e3c8d2522f550d,
-        type: 3}
-      propertyPath: tong.Array.data[1]
-      value: 
-      objectReference: {fileID: 109101828}
-    - target: {fileID: 1730249663252526016, guid: aeda425acf2fa474c8e3c8d2522f550d,
-        type: 3}
-      propertyPath: deattachToggle.m_UseReference
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1730249663252526016, guid: aeda425acf2fa474c8e3c8d2522f550d,
-        type: 3}
-      propertyPath: pauseMenuAction.m_UseReference
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1862767537732300207, guid: aeda425acf2fa474c8e3c8d2522f550d,
-        type: 3}
-      propertyPath: m_RequestedTrackingOriginMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1887026987931050236, guid: aeda425acf2fa474c8e3c8d2522f550d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -10.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1887026987931050236, guid: aeda425acf2fa474c8e3c8d2522f550d,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -163.3
-      objectReference: {fileID: 0}
     - target: {fileID: 2817871500527708019, guid: aeda425acf2fa474c8e3c8d2522f550d,
         type: 3}
       propertyPath: m_RootOrder
@@ -507,11 +467,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036981475131093094, guid: aeda425acf2fa474c8e3c8d2522f550d,
-        type: 3}
-      propertyPath: m_CullingMask.m_Bits
-      value: 1879048255
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -940,12 +895,6 @@ GameObject:
 --- !u!4 &814929329 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8967959922070982147, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
-    type: 3}
-  m_PrefabInstance: {fileID: 3809018715219248132}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &846858421 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5572847896221401653, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
     type: 3}
   m_PrefabInstance: {fileID: 3809018715219248132}
   m_PrefabAsset: {fileID: 0}
@@ -1842,7 +1791,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

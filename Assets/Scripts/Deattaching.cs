@@ -26,6 +26,7 @@ public class Deattaching : MonoBehaviour
     {
         
         float pauseValue = pauseMenuAction.action.ReadValue<float>();
+
         float buttonvalue = deattachToggle.action.ReadValue<float>();
         //print(pauseValue);
         if (buttonvalue != 0)
