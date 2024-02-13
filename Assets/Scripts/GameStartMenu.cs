@@ -50,10 +50,7 @@ public class GameStartMenu : MonoBehaviour
 
     private void Update()
     {
-        if (finished)
-        {
-            StartCoroutine(TitleScreen());
-        }
+        
     }
     public void QuitGame()
     {
