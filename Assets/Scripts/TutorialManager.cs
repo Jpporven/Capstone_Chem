@@ -122,6 +122,11 @@ public class TutorialManager : MonoBehaviour
             IndicatorManager.GenerateNextIndicator(4);
             BunsenBurner();
         }
+        if(stepCount == 8)
+        {
+            tutorialText.text = "Congratulations , you have completed the Tutorial" + "Press the button again if you want to repeat the tutorial " +
+               "or use the main menu to start the game ";
+        }
     }
 
    
@@ -190,8 +195,8 @@ public class TutorialManager : MonoBehaviour
         if (metal.GetComponent<ExperimentBool>().hasBeenExperimentedOn == true)
         {
             indicator.SetActive(false);
-            
-          //  delay = false;
+            stepCount++;
+            //  delay = false;
             //StartCoroutine(Delay());
             desk.SetActive(false); 
             metallicElements.SetActive(false);
@@ -204,8 +209,8 @@ public class TutorialManager : MonoBehaviour
             MovementObj.SetActive(false);
             LookedObj.SetActive(false);
             mainMenu.SetActive(true);
-            tutorialText.text = "Congratulations , you have completed the Tutorial" + "Press the button again if you want to repeat the tutorial " +
-                "or use the main menu to start the game ";
+            
+           
         }
     }
 
@@ -238,7 +243,6 @@ public class TutorialManager : MonoBehaviour
        /// StartCoroutine(Delay());
         PlayerTutorial.transform.position = playerSpawner.transform.position;
         PlayerTutorial.transform.rotation = playerSpawner.transform.rotation;
-
         mainMenu.SetActive(false);
         metallicElements.SetActive(false);
         tongs.SetActive(false);

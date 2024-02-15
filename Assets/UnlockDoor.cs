@@ -17,6 +17,14 @@ public class UnlockDoor : MonoBehaviour
         Rigidbody.isKinematic = true;
     }
     // Update is called once per frame
+
+    public void Unlock()
+    {
+        //if (gameObject.tag == "Key")
+        //{
+            Rigidbody.isKinematic = false;
+        //}
+    }
     public void OnTriggerEnter(Collider other)
     {
        if(other.gameObject.tag == "Key")
