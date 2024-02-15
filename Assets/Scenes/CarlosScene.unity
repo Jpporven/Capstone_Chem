@@ -1017,6 +1017,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d07d8a43dc6c446f1a8cd9b9b68a71be, type: 3}
+--- !u!1 &3809018715219248133 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 946317178044310603, guid: d07d8a43dc6c446f1a8cd9b9b68a71be,
+    type: 3}
+  m_PrefabInstance: {fileID: 3809018715219248132}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4796018899832617140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1317,6 +1323,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2014781902401494988, guid: 3f1b15d922bc64bd0b45386150562a7a,
+        type: 3}
+      propertyPath: Basket
+      value: 
+      objectReference: {fileID: 3809018715219248133}
     - target: {fileID: 5590283876380089559, guid: 3f1b15d922bc64bd0b45386150562a7a,
         type: 3}
       propertyPath: m_RootOrder
