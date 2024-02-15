@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4728133936333386604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2409142115267826296}
+  - component: {fileID: 1899847180582185780}
+  m_Layer: 0
+  m_Name: TutorialManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2409142115267826296
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4728133936333386604}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.711385, y: -4.0744143, z: 17.979282}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1899847180582185780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4728133936333386604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ed8191fe310af49824d75791c962e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stepCount: 0
+  PlayerTutorial: {fileID: 0}
+  tutorialText: {fileID: 0}
+  mainMenu: {fileID: 0}
+  tongs: {fileID: 0}
+  button: {fileID: 0}
+  metal: {fileID: 0}
+  metallicElements: {fileID: 0}
+  bunsenBurner: {fileID: 0}
+  Dial: {fileID: 0}
+  MovementObj: {fileID: 0}
+  LookedObj: {fileID: 0}
+  desk: {fileID: 0}
+  indicator: {fileID: 0}
+  playerSpawner: {fileID: 0}
+  hasBeenPressed: 0
+  experimented: 0
+  delay: 0
+  dial: {fileID: 0}
+  gameStartMenu: {fileID: 0}
+  ray: {fileID: 0}
+  movement: {fileID: 0}
