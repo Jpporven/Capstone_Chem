@@ -31,12 +31,7 @@ public class GameStartMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        color = gameTitle.GetComponent<SpriteRenderer>();
-        gameTitle.transform.position = new Vector3(0, 2.43f, 6.71f);
-        mainMenu.SetActive(false);
-        StartCoroutine(FadeOut());
-
-        //Hook events
+       
         startButton.onClick.AddListener(StartGame);
         optionButton.onClick.AddListener(EnableOption);
         aboutButton.onClick.AddListener(EnableAbout);
@@ -93,38 +88,8 @@ public class GameStartMenu : MonoBehaviour
         
     }
 
-    public IEnumerator FadeOut()
-    {
-        float duration = 5.0f;
-        float currentTime = 0f;
+   
 
-        while (currentTime < duration)
-        {
-            float alpha = Mathf.Lerp(1f, 0, currentTime / duration);
-            color.color = new Color(color.color.r, color.color.g, color.color.b, alpha);
-            currentTime += Time.deltaTime;
-            yield return null;
-        }
-        if (currentTime >= duration)
-        {
-            finished = true;
-
-        }
-    }
-
-    public IEnumerator TitleScreen()
-    {
-        while (time > 0)
-        {
-            yield return new WaitForSeconds(1);
-            time--;
-        }
-        fadeoutColor.a = 255;
-        gameTitle.transform.position = new Vector3(0, 4.5f, 6.71f);
-        color.color = fadeoutColor;
-        EnableMainMenu();
-        finished = false;
-
-    }
+   
 
 }

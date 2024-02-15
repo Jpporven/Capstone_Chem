@@ -7,88 +7,140 @@ using UnityEngine.XR.Content.Interaction;
 
 public class TutorialManager : MonoBehaviour
 {
+    //Step Counts
     public int stepCount;
-    public int step3count;
+    
 
-    public GameObject PlayerUI;
+    //Players
+    //public GameObject PlayerUI;
     public GameObject PlayerTutorial;
 
+    //Text
     public TMP_Text tutorialText;
-    public GameObject UIchoose;
-    public GameStartMenu gameStartMenu;
+
+   
+    //GameObjects
     public GameObject mainMenu;
-    public GameObject ControlModel;
+    //public GameObject ControlModel;
     public GameObject tongs;
     public GameObject button;
     public GameObject metal;
+    public GameObject metallicElements;
     public GameObject bunsenBurner;
+    public GameObject Dial;
+    public GameObject MovementObj;
+    public GameObject LookedObj;
+    public GameObject desk;
+    public GameObject indicator;
+
+    //Spawner
     public GameObject playerSpawner;
-    public GameObject playerUIspawner;
-    public GameObject playerMainMenuSpawner;
+
+    // bools
     public bool hasBeenPressed;
-    bool experimented;
+    public bool experimented;
+    public bool delay;
+
+
+
+    //References
     public XRKnob dial;
+    public GameStartMenu gameStartMenu;
+    public TutorialRaycast ray;
+    public MovementDetection movement;
+   
+        
 
     // Start is called before the first frame update
     void Start()
     {
         experimented = metal.GetComponent<ExperimentBool>().hasBeenExperimentedOn;
-        UIchoose.SetActive(true);
-        PlayerTutorial.SetActive(false);
-        metal.SetActive(false);
-        tongs.SetActive(false);
-        bunsenBurner.SetActive(false);
-        stepCount = 0 ;
-        step3count = 0;
+       // delay = false;
+        stepCount = 0;
        
+        hasBeenPressed = false;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-       if(stepCount == 1)
+        print(stepCount);
+        //  delay = false;
+
+        if (stepCount == 1)
         {
-            tutorialText.text = " Look at the Red Panels";
-            //John Code related to Looking Raycast  (Reference) , No dialogue
-            //After this finish
-            //delay
-            //stepCount++;
+            tutorialText.text =
+            // StartCoroutine(Delay());
+            tutorialText.text = "Welcome to lab lockdown Tutorial" + " Look at the Red Panels";
+            if (ray.Step1Complete == true)
+            {
+                //delay = false;
+                //StartCoroutine(Delay());
+                stepCount++;
+            }
+
         }
         if (stepCount == 2)
         {
+            MovementObj.SetActive(true);
             tutorialText.text = " Use your Left Stick to move to the circle";
-            ControlModel.SetActive(true);
-            IndicatorManager.GenerateNextIndicator(0);
-            // John code related to Movement
-            //After this finish
-            //delay
-            //stepCount++;
+            // ControlModel.SetActive(true);
+            indicator.SetActive(true);
+            if (movement.Step2Complete)
+            {
+                // StartCoroutine(Delay());
+                stepCount++;
+            }
+
         }
         if (stepCount == 3)
         {
+            button.SetActive(true);
             tutorialText.text = " Press the button with your hand";
-            Step3();
+            IndicatorManager.GenerateNextIndicator(0);
+
+
+        }
+        if (stepCount == 4)
+        {
+           //Tong step
+        }
+        if (stepCount == 5)
+        {
+            //metal Step
+            tutorialText.text = "Grab the metal with the tongs in your hands";
+        }
+        if (stepCount == 6)
+        {
+            tutorialText.text = "Nice Job , now use the dial to turn on the bunsen burner";
+            DialMoved();
+        }
+        if(stepCount == 7)
+        {
+            tutorialText.text = "Put the metal on top of the bunsen burner until it burns";
+            IndicatorManager.GenerateNextIndicator(4);
+            BunsenBurner();
         }
     }
 
-    void Step3() // 3.1
-    {
-        IndicatorManager.GenerateNextIndicator(1);
-       
-       
-    }
+   
 
     public void ButtonPressed()// 3.2
     {
         if(hasBeenPressed == false)
         {
+            stepCount++;
             tongs.SetActive(true);
-            metal.SetActive(true);
+            metallicElements.SetActive(true);
             bunsenBurner.SetActive(true);
-            IndicatorManager.GenerateNextIndicator(2);
-            step3count++;
+            Dial.SetActive(true);
             hasBeenPressed = true;
+            tutorialText.text = "Grab the tongs with your hand";
+            IndicatorManager.GenerateNextIndicator(1);
+            
+           
+            return;
         }
         if(hasBeenPressed == true)
         {
@@ -99,50 +151,114 @@ public class TutorialManager : MonoBehaviour
 
     public void TongsGrabbed() //3.3
     {
-        IndicatorManager.GenerateNextIndicator(3);
-        print("Tongs were grabbed!");
-        tutorialText.text = "Grab the metal with the tongs in your hands";
+        if (stepCount == 4)
+        {
+            IndicatorManager.GenerateNextIndicator(2);
+            print("Tongs were grabbed!");
+            stepCount++;
+        }
+        
     }
 
     public void MetalGrabbed() //3.4
     {
-        IndicatorManager.GenerateNextIndicator(4);
-        print("Metal Was Grabbed");
-        tutorialText.text = "Nice Job , now use the dial to turn on the bunsen burner";
+        if(stepCount == 5)
+        {
+            IndicatorManager.GenerateNextIndicator(3);
+            print("Metal Was Grabbed");
+            stepCount++;
+        }
+       
+        
 
     }
 
-    public void dialMoved()
+    public void DialMoved()
     {
-        if(dial.value == 1)
+        if(stepCount == 6)
         {
-            IndicatorManager.GenerateNextIndicator(5);
+            if (dial.value == 1)
+            {
+                stepCount++;
+
+            }
         }
+       
     }
     public void BunsenBurner()
     {
-        if (experimented)
+        if (metal.GetComponent<ExperimentBool>().hasBeenExperimentedOn == true)
         {
-            tutorialText.text = "Congratulations , you have completed the Tutorial";
-            //delay
-            tutorialText.text = "Press the button again if you want to repeat the tutorial " +
-                "or turn around and use the main menu to start the game ";
+            indicator.SetActive(false);
+            
+          //  delay = false;
+            //StartCoroutine(Delay());
+            desk.SetActive(false); 
+            metallicElements.SetActive(false);
+            Destroy(metal);
+            Destroy(tongs);
+            tongs.SetActive(false);
+            Dial.SetActive(false);
+            bunsenBurner.SetActive(false);
+            button.SetActive(true);
+            MovementObj.SetActive(false);
+            LookedObj.SetActive(false);
+            mainMenu.SetActive(true);
+            tutorialText.text = "Congratulations , you have completed the Tutorial" + "Press the button again if you want to repeat the tutorial " +
+                "or use the main menu to start the game ";
         }
     }
 
 
     // Two buttons that the player can pick
-    public void HaveYouPlayed()
+    public void Yes()
     {
-        mainMenu.SetActive(true);  
+        
+        //delay = false;  
+       // StartCoroutine(Delay());
+        PlayerTutorial.SetActive(true);
+        PlayerTutorial.transform.position = playerSpawner.transform.position;
+        metallicElements.SetActive(false);
+        tongs.SetActive(false);
+        Dial.SetActive(false);
+        bunsenBurner.SetActive(false);
+        button.SetActive(false);
+        MovementObj.SetActive(false);
+        LookedObj.SetActive(false);
+        desk.SetActive(false);
+        indicator.SetActive(false);
+        tutorialText.text = "Welcome to Lab Lockdown";
+        mainMenu.SetActive(true);
+
     }
-    public void HaventPlayed()
+    public void No()
     {
         stepCount = 1;
-        PlayerUI.SetActive(false);
+       // delay = false;  
+       /// StartCoroutine(Delay());
         PlayerTutorial.transform.position = playerSpawner.transform.position;
-        //FadeScreen//
-        PlayerTutorial.SetActive(true);
+        PlayerTutorial.transform.rotation = playerSpawner.transform.rotation;
+
+        mainMenu.SetActive(false);
+        metallicElements.SetActive(false);
+        tongs.SetActive(false);
+        Dial.SetActive(false);
+        bunsenBurner.SetActive(false);
+        button.SetActive(false);
+        MovementObj.SetActive(false);
+        
     }
+
+   /* public IEnumerator Delay()
+    {
+        if(delay == false)
+        {
+            yield return new WaitForSeconds(3);
+        }
+
+        delay = true;
+       
+    }
+   */
     
 }

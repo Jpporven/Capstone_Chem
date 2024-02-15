@@ -91,6 +91,8 @@ public class Timer : MonoBehaviour
         {
             timesUpCheck = true;
             subtitleTriggers.minLeft0Lv1Text();
+            SceneManager.LoadScene(2);
+      
         }
         Displaytime(time);
     }

@@ -283,10 +283,10 @@ public class Rotating : MonoBehaviour
             FAtom.SetActive(false);
             Tabletext.text = "You win";
             time += Time.deltaTime;
-            if (time <= timeNeeded)
-            {
-                //SceneManager.LoadScene("WinScene");
-            }
+            
+            
+            SceneManager.LoadScene(3);
+            
         }
 
     }
