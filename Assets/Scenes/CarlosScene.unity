@@ -486,6 +486,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1862767537732300207, guid: aeda425acf2fa474c8e3c8d2522f550d,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1862767537732300207, guid: aeda425acf2fa474c8e3c8d2522f550d,
+        type: 3}
       propertyPath: m_RequestedTrackingOriginMode
       value: 1
       objectReference: {fileID: 0}
@@ -624,6 +629,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: TabPage1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608045871480609691, guid: aeda425acf2fa474c8e3c8d2522f550d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608045871480609691, guid: aeda425acf2fa474c8e3c8d2522f550d,
+        type: 3}
+      propertyPath: m_SlopeLimit
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608045871480609691, guid: aeda425acf2fa474c8e3c8d2522f550d,
+        type: 3}
+      propertyPath: m_StepOffset
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4912153975186549171, guid: aeda425acf2fa474c8e3c8d2522f550d,
         type: 3}
