@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6598815579406187026
 MonoBehaviour:
@@ -122,7 +122,7 @@ MonoBehaviour:
     type: 3}
   m_SecondaryTouchAction: {fileID: 5188782311186578770, guid: 0be0028c24f2a4c14a96b6aa39055933,
     type: 3}
-  m_CameraTransform: {fileID: 0}
+  m_CameraTransform: {fileID: 6598815579406187027}
   m_KeyboardTranslateSpace: 0
   m_MouseTranslateSpace: 2
   m_KeyboardXTranslateSpeed: 0.2
