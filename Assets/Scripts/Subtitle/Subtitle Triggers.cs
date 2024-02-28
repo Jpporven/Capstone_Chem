@@ -5,7 +5,6 @@ using UnityEngine;
 public class SubtitleTriggers : MonoBehaviour
 {
     public Timer timer;
-
     public bool flourineCheck = false;
     public bool chlorineCheck = false;
     public bool checkboth = false;
