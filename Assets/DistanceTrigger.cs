@@ -13,10 +13,11 @@ public class DistanceTrigger : MonoBehaviour
     public void Update()
     {
 
-        if (Vector3.Distance(Player.transform.position, transform.position) < 4f)
+        if (Vector3.Distance(Player.transform.position, transform.position) < 1.8f)
         {
             InRange();
         }
+        print(Vector3.Distance(Player.transform.position, transform.position));
     }
 
     public void InRange()
