@@ -19,6 +19,7 @@ public class Deattaching : MonoBehaviour
     {
         
          socket = tong.GetComponent<XRSocketInteractor>();
+        isPaused = false;
        
         
     }
@@ -45,28 +46,38 @@ public class Deattaching : MonoBehaviour
 
         }
 
-        if (pauseValue != 0)
-        {
-
-            isPaused = !isPaused;
+        if (pauseValue == 1)
+        { 
+            //bool paused = false;
+            isPaused = true;
 
         }
         if (isPaused == true)
         {
             StopCoroutine(timer.lessTimer());
+            //tempTransform = player.transform.position;
+            //player.transform = PauseMenu.transform;
+            //PauseMenuUI.SetActive(true);
             pauseMenu.SetActive(true);
+            //paused = true;
         }
-        else
+        void ResumeGame()
         {
+            //if(paused == true)
+            //{
             pauseMenu.SetActive(false);
-           // StartCoroutine(timer.lessTimer());
-        }
+            //StartCoroutine(timer.lessTimer());
+            //player.transform.position = tempTransform.
+            //}
             
-        
 
-      
+        }
 
-        
+
+
+
+
+
     }
 
     public void QuitGame()

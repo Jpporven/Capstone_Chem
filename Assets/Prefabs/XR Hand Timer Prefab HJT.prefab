@@ -189,6 +189,16 @@ MonoBehaviour:
   timeText: {fileID: 8116945452154700827}
   startTime: 1800
   time: 0
+  openingStartTime: 5
+  openingTime: 0
+  subtitleTriggers: {fileID: 0}
+  openingCheck: 0
+  time20check: 0
+  time10check: 0
+  time5check: 0
+  enterLv1: 0
+  level1Clear: 0
+  timesUpCheck: 0
 --- !u!1001 &8508832396407835747
 PrefabInstance:
   m_ObjectHideFlags: 0
