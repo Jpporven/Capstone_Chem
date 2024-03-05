@@ -12250,6 +12250,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3945533695278997741}
     m_Modifications:
+    - target: {fileID: -8976434209020323574, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
         type: 3}
       propertyPath: m_RootOrder
@@ -12327,6 +12332,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5405818379576080400, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5405818379576080400, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6d06043370cdb604487ab64395b489bc, type: 2}
@@ -12354,6 +12364,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3332903366582707213, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14496,6 +14511,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3945533695278997741}
     m_Modifications:
+    - target: {fileID: -8976434209020323574, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
         type: 3}
       propertyPath: m_RootOrder
@@ -14573,6 +14593,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5405818379576080400, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5405818379576080400, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6d06043370cdb604487ab64395b489bc, type: 2}
@@ -14601,6 +14626,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 3332903366582707213, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14620,6 +14650,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3945533695278997741}
     m_Modifications:
+    - target: {fileID: -8976434209020323574, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
         type: 3}
       propertyPath: m_RootOrder
@@ -14697,6 +14732,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5405818379576080400, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5405818379576080400, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6d06043370cdb604487ab64395b489bc, type: 2}
@@ -14724,6 +14764,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3332903366582707213, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16276,6 +16321,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3945533695278997741}
     m_Modifications:
+    - target: {fileID: -8976434209020323574, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
         type: 3}
       propertyPath: m_RootOrder
@@ -16353,6 +16403,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5405818379576080400, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5405818379576080400, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6d06043370cdb604487ab64395b489bc, type: 2}
@@ -16381,6 +16436,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 3332903366582707213, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16400,6 +16460,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3945533695278997741}
     m_Modifications:
+    - target: {fileID: -8976434209020323574, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
         type: 3}
       propertyPath: m_RootOrder
@@ -16477,6 +16542,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5405818379576080400, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5405818379576080400, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6d06043370cdb604487ab64395b489bc, type: 2}
@@ -16505,6 +16575,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 3332903366582707213, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16524,6 +16599,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3945533695278997741}
     m_Modifications:
+    - target: {fileID: -8976434209020323574, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
         type: 3}
       propertyPath: m_RootOrder
@@ -16601,6 +16681,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5405818379576080400, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5405818379576080400, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6d06043370cdb604487ab64395b489bc, type: 2}
@@ -16628,6 +16713,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3332903366582707213, guid: c407b1dbe0f2d4fd4b7bc64aa424b450,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

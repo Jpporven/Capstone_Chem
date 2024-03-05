@@ -5,14 +5,13 @@ using UnityEngine;
 public class BunsenBurnerTrigger : MonoBehaviour
 {
     bool collided = false;
-
-    public GuidedElementManager guide;
+    public int step;
 
     private void OnTriggerEnter(Collider collision)
     {
         if (!collided)
         {
-            guide.AdvanceStep(1, 1);
+            IndicatorManager.GenerateNextIndicator(step);
             collided = true;
         }
     }
