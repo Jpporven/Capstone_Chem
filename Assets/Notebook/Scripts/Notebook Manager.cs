@@ -13,31 +13,34 @@ public class NotebookManager : MonoBehaviour
 
     public bool noteOpen = false;
 
-    public KeyCode notebookButton;
+    
 
 
-    void Update()
-    {
-        if (Input.GetKeyDown(notebookButton))
-        {
-            OpenCloseNote();
-        }
-    }
+   
+    
 
-    public void OpenCloseNote()
+    public void OpenNoteBook()
     {
         if (noteOpen == false)
         {
             notebook.SetActive(true);
             noteOpen = true;
         }
-        else if (noteOpen == true) 
+
+       else
         {
             notebook.SetActive(false);
             noteOpen = false;
         }
-
     }
+
+    ////public void CloseNoteBook()
+    //{
+    //    if (noteOpen == true)
+    //    {
+    //        notebook.SetActive(false);
+    //    }
+    //}
 
 
     public void TabPage1()
@@ -60,4 +63,6 @@ public class NotebookManager : MonoBehaviour
         page2.SetActive(false);
         page3.SetActive(true);
     }
+
+
 }

@@ -11,6 +11,9 @@ public class Deattaching : MonoBehaviour
     public Timer timer;
     public InputActionProperty deattachToggle;
     public InputActionProperty pauseMenuAction;
+    public InputActionProperty notebook;
+
+    public NotebookManager notebookManager;
     XRSocketInteractor socket;
     public GameObject  tong;
     public GameObject pauseMenu;
@@ -26,44 +29,42 @@ public class Deattaching : MonoBehaviour
     {
         
         float pauseValue = pauseMenuAction.action.ReadValue<float>();
-
+        float noteValue = notebook.action.ReadValue<float>();
         float buttonvalue = deattachToggle.action.ReadValue<float>();
+        
+        
         //print(pauseValue);
         if (buttonvalue != 0)
         {
-           
                 socket.enabled = false;
-           
-            
-       
         }
         else
-        {
-            
-                socket.enabled = true;
-            
+             socket.enabled = true;
 
-        }
 
-        if (pauseValue != 0)
-        {
+        
+        //if (pauseValue != 0)
+        //{
 
-            isPaused = !isPaused;
+        //    isPaused = !isPaused;
 
-        }
-        if (isPaused == true)
-        {
-            StopCoroutine(timer.lessTimer());
-            pauseMenu.SetActive(true);
-        }
-        else
-        {
-            pauseMenu.SetActive(false);
-           // StartCoroutine(timer.lessTimer());
-        }
+        //}
+        //if (isPaused == true)
+        //{
+        //    StopCoroutine(timer.lessTimer());
+        //    pauseMenu.SetActive(true);
+        //}
+        //else
+        //{
+        //    pauseMenu.SetActive(false);
+        //   // StartCoroutine(timer.lessTimer());
+        //}
             
         
-
+        if(noteValue == 1)
+        {
+            notebookManager.OpenNoteBook();
+        }
       
 
         
