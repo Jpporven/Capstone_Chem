@@ -8,6 +8,10 @@ using UnityEngine.SceneManagement;
 
 public class Deattaching : MonoBehaviour
 {
+
+    // Pause Menu //
+    public PauseManager pauseManager;
+
     public Timer timer;
     public InputActionProperty deattachToggle;
     public InputActionProperty pauseMenuAction;
@@ -28,7 +32,7 @@ public class Deattaching : MonoBehaviour
     public void Update()
     {
         
-        float pauseValue = pauseMenuAction.action.ReadValue<float>();
+        int pauseValue = pauseMenuAction.action.ReadValue<int>();
         float noteValue = notebook.action.ReadValue<float>();
         float buttonvalue = deattachToggle.action.ReadValue<float>();
         
@@ -43,22 +47,17 @@ public class Deattaching : MonoBehaviour
 
 
         
-        //if (pauseValue != 0)
-        //{
-
-        //    isPaused = !isPaused;
-
-        //}
-        //if (isPaused == true)
-        //{
-        //    StopCoroutine(timer.lessTimer());
-        //    pauseMenu.SetActive(true);
-        //}
-        //else
-        //{
-        //    pauseMenu.SetActive(false);
-        //   // StartCoroutine(timer.lessTimer());
-        //}
+        if (pauseValue != 0)
+        {
+            isPaused = true;
+        }
+        if (isPaused == true)
+        {
+            
+           pauseManager.ActivatePauseMenu();
+           pauseMenu.SetActive(true);
+        }
+        
             
         
         if(noteValue == 1)
@@ -76,8 +75,9 @@ public class Deattaching : MonoBehaviour
         print("Application Closed");
     }
 
-    public void RestartLevel()
-    {
-        SceneManager.LoadScene(1);
-    }
+    //public void RestartLevel()
+    //{
+    //    SceneManager.LoadScene(1);
+    //}
+    
 }
