@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class burningElementTrigger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    bool inRange = false;
 
-    // Update is called once per frame
-    void Update()
+    public GameObject Lithium;
+
+    public void Update()
     {
-        
+        if (Vector3.Distance(Lithium.transform.position, transform.position) < 2f && !inRange)
+        {
+            print("Im in range!");
+
+            IndicatorManager.GenerateNextIndicator(IndicatorManager.currentIndicator++);
+
+            inRange = !false;
+        }
     }
 }

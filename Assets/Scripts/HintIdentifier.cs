@@ -37,7 +37,12 @@ public class HintIdentifier : MonoBehaviour
                 {
                     //relocate the hint to the assigned spawn point
                     hit.transform.gameObject.GetComponent<HintRelocator>().Relocate();
+                    if(hit.collider.name == "Lithium Hint Sheet")
+                    {
+                        IndicatorManager.GenerateNextIndicator(IndicatorManager.currentIndicator++);
+                    }
                 }
+
                 
             }
             else

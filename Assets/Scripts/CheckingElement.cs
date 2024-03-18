@@ -8,6 +8,7 @@ public class CheckingElement : MonoBehaviour
     public GameObject[] elements ;
     public ControllingParticles isOn;
     public ElemenParticle [] particle;
+    bool triggerBool = false;
 
     private void OnTriggerExit(Collider other)
     {
@@ -17,6 +18,11 @@ public class CheckingElement : MonoBehaviour
             {
                 Debug.Log("Should Stop");
                 particle[i].StopParticle();
+                if (elements[i].gameObject.name == "Lithium1" && !triggerBool)
+                {
+                    IndicatorManager.GenerateNextIndicator(IndicatorManager.currentIndicator++);
+                    triggerBool = true;
+                }
                 
             }
         }

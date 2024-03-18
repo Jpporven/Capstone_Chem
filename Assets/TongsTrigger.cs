@@ -12,16 +12,10 @@ public class TongsTrigger : MonoBehaviour
     {
         if (isGrabbed) 
         {
-            IndicatorManager.GenerateNextIndicator(2);
+            IndicatorManager.GenerateNextIndicator(IndicatorManager.currentIndicator++);
 
             isGrabbed = false;
 
-        }
-        else if(!isGrabbed && !isComplete && IndicatorManager.currentIndicator == 3)
-        {
-            IndicatorManager.GenerateNextIndicator(4);
-
-            isComplete = true;
         }
     }
 }

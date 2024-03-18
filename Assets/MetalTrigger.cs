@@ -5,26 +5,13 @@ using UnityEngine;
 public class MetalTrigger : MonoBehaviour
 {
     bool isGrabbed = false;
-    public ExperimentBool experiment;
     public void MetalGrabbed()
     {
         if (!isGrabbed)
         {
-            IndicatorManager.GenerateNextIndicator(5);
+            IndicatorManager.GenerateNextIndicator(IndicatorManager.currentIndicator++);
             isGrabbed = true;
         }
     }
 
-    private void Update()
-    {
-        BurnElement();
-    }
-
-    public void BurnElement()
-    {
-        if (isGrabbed && experiment.hasBeenExperimentedOn)
-        {
-            IndicatorManager.GenerateNextIndicator(6);
-        }
-    }
 }

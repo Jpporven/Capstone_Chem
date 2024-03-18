@@ -145,8 +145,6 @@ public class ObjRespawner : MonoBehaviour
             rb.angularVelocity = Vector3.zero;
 
             Debug.Log("Tongs respawned"); //We did it!
-
-                IndicatorManager.GenerateNextIndicator(3);
             
         }
     }

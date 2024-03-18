@@ -6,14 +6,12 @@ public class DistanceTrigger : MonoBehaviour
 {
     bool inRange = false;
 
-    public int step;
-
     public GameObject Player;
 
     public void Update()
     {
 
-        if (Vector3.Distance(Player.transform.position, transform.position) < 1.8f)
+        if (Vector3.Distance(Player.transform.position, transform.position) < 1.8f && !inRange)
         {
             InRange();
         }
@@ -24,19 +22,9 @@ public class DistanceTrigger : MonoBehaviour
     {
         print("Im in range!");
 
-        IndicatorManager.GenerateNextIndicator(step);
+        IndicatorManager.GenerateNextIndicator(IndicatorManager.currentIndicator++);
         
+        inRange = true;
     }
 
-    IEnumerator Delay()
-    {
-        if (!inRange)
-        {
-            yield return new WaitForSeconds(1.5f);
-
-            IndicatorManager.GenerateNextIndicator(step);
-            //Here you would generate the next line of subtitles based on the step number assigned to this script
-        }
-
-    }
 }

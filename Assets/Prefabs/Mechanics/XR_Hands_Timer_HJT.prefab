@@ -1386,11 +1386,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 755686135264160036, guid: 7415f28ae303170438edca1a74f04c2a,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5083692448855264617}
-    - targetCorrespondingSourceObject: {fileID: 755686135264160036, guid: 7415f28ae303170438edca1a74f04c2a,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 130187386139565616}
+      addedObject: {fileID: 6766656172619519735}
   m_SourcePrefab: {fileID: 100100000, guid: 7415f28ae303170438edca1a74f04c2a, type: 3}
 --- !u!4 &180489032642556552 stripped
 Transform:
@@ -1489,7 +1485,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8508832396407835747}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5083692448855264617
+--- !u!114 &6766656172619519735
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1498,29 +1494,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8964922426511205703}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f13bc55a56e2d4aca8688ba858a0d9a9, type: 3}
+  m_Script: {fileID: 11500000, guid: f4c126690498a413eaac738f819d7c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Step1Complete: 0
-  Timer: 0
-  rayCollectionDelay: 0
-  Step1Condition: 0
---- !u!114 &130187386139565616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8964922426511205703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f13bc55a56e2d4aca8688ba858a0d9a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Step1Complete: 0
-  Timer: 0
-  rayCollectionDelay: 0
-  Step1Condition: 0
+  hintTimer: 0
+  hintCollectionDelay: 3
 --- !u!20 &9036981475131093094 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 827746704869620741, guid: 7415f28ae303170438edca1a74f04c2a,
