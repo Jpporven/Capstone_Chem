@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5766488216018678203}
   - component: {fileID: 1466038600534499717}
   - component: {fileID: 2293831524544146035}
+  - component: {fileID: 1141725311149275449}
   m_Layer: 0
   m_Name: Object Respawner
   m_TagString: Untagged
@@ -139,6 +140,22 @@ MonoBehaviour:
   magnesiumRespawner: {fileID: 929776749286288842}
   sodium: {fileID: 0}
   sodiumRespawner: {fileID: 8811978351816905505}
+--- !u!114 &1141725311149275449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579046460590612625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f3e2a92b7a1feb49a512414a3628096, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nitrogen: {fileID: 0}
+  oxygen: {fileID: 0}
+  requiredCollisions: 5
+  timerScript: {fileID: 0}
 --- !u!1 &705346598565017889
 GameObject:
   m_ObjectHideFlags: 0

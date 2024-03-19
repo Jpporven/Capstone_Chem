@@ -124,5 +124,13 @@ public class Timer : MonoBehaviour
 
     }
 
+    public void ReduceTime()
+    {
+        if (time > 0)
+        {
+            time -= 60; // Reduce time by 1 minute (60 seconds)
+            Displaytime(time);
+        }
+    }
 }
 

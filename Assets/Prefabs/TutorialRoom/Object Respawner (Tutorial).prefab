@@ -198,6 +198,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 966584404839965780}
+    - targetCorrespondingSourceObject: {fileID: 579046460590612625, guid: 6629dec03664a23408b491bf58c41c55,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8762456681224616522}
   m_SourcePrefab: {fileID: 100100000, guid: 6629dec03664a23408b491bf58c41c55, type: 3}
 --- !u!1 &3908188117664643659 stripped
 GameObject:
@@ -221,6 +225,22 @@ MonoBehaviour:
   tongRespawner: {fileID: 5706187934635157745}
   calcium: {fileID: 0}
   calciumRespawner: {fileID: 445383967532855733}
+--- !u!114 &8762456681224616522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908188117664643659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f3e2a92b7a1feb49a512414a3628096, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nitrogen: {fileID: 0}
+  oxygen: {fileID: 0}
+  requiredCollisions: 5
+  timerScript: {fileID: 0}
 --- !u!1 &5706187934635157745 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8144179810415063595, guid: 6629dec03664a23408b491bf58c41c55,
