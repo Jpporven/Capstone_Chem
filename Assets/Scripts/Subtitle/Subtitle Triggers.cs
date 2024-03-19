@@ -53,7 +53,7 @@ public class SubtitleTriggers : MonoBehaviour
 
     void Update()
     {
-        if(flourineCheck == true && chlorineCheck == true && checkboth == false) 
+        if (flourineCheck == true && chlorineCheck == true && checkboth == false)
         {
             checkboth = true;
             FindObjectOfType<SubtitleManager>().StartText(findBothHidden);
@@ -148,7 +148,7 @@ public class SubtitleTriggers : MonoBehaviour
 
     public void EscapeText()
     {
-        if(checkboth == true)
+        if (checkboth == true)
         {
             if (quickClearCheck == true)
             {
@@ -166,7 +166,7 @@ public class SubtitleTriggers : MonoBehaviour
             else
                 FindObjectOfType<SubtitleManager>().StartText(normalClear);
         }
-  
+
     }
 
 }

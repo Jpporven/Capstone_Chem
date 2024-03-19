@@ -216,6 +216,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Complete XR Origin Set Up With Hand Presence
       objectReference: {fileID: 0}
+    - target: {fileID: 8678867122604575015, guid: 7415f28ae303170438edca1a74f04c2a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -849,7 +854,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
