@@ -15,7 +15,7 @@ public class DistanceTrigger : MonoBehaviour
         {
             InRange();
         }
-        print(Vector3.Distance(Player.transform.position, transform.position));
+        //print(Vector3.Distance(Player.transform.position, transform.position));
     }
 
     public void InRange()
@@ -25,6 +25,8 @@ public class DistanceTrigger : MonoBehaviour
         IndicatorManager.GenerateNextIndicator(IndicatorManager.currentIndicator++);
         
         inRange = true;
+
+        Destroy(this);
     }
 
 }

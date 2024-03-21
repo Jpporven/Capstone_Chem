@@ -16,6 +16,7 @@ public class HintIdentifier : MonoBehaviour
     float Distance;
     public float hintTimer = 0;
     public float hintCollectionDelay;
+    public bool GuidedElementStep = false;
 
     // Update is called once per frame
     void Update()
@@ -40,6 +41,7 @@ public class HintIdentifier : MonoBehaviour
                     if(hit.collider.name == "Lithium Hint Sheet")
                     {
                         IndicatorManager.GenerateNextIndicator(IndicatorManager.currentIndicator++);
+                        GuidedElementStep = true;
                     }
                 }
 

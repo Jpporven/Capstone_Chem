@@ -106,6 +106,8 @@ public class PTManager : MonoBehaviour
             case 3:
                 if (activeLithium == false)
                 {
+                    IndicatorManager.GenerateNextIndicator(IndicatorManager.currentIndicator++);
+
                     activeLithium = true;
                     panelLithium.SetActive(true);
                     elementCount++;
@@ -212,6 +214,8 @@ public class PTManager : MonoBehaviour
         {
             key.SetActive(true);
             keyRend.material.color = Color.yellow;
+
+            IndicatorManager.GenerateNextIndicator(IndicatorManager.currentIndicator++);
         }
         else if (elementCount == achievementCondition) //Achievement.
         {

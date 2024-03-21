@@ -20,6 +20,8 @@ public class ElementCheck_Manager : MonoBehaviour
 
     public bool[] elementChecked;
 
+    public HintIdentifier hint;
+
 
 
     private void OnTriggerEnter(Collider other)
@@ -82,6 +84,16 @@ public class ElementCheck_Manager : MonoBehaviour
         {
             if (selectedElement == "Lithium1")
             {
+                if(hint.GuidedElementStep)
+                {
+                    IndicatorManager.GenerateNextIndicator(IndicatorManager.currentIndicator++);
+                }
+                else
+                {
+                    IndicatorManager.GenerateNextIndicator(IndicatorManager.currentIndicator + 2);
+                }
+                
+
                 checkNO.SetActive(false);
                 checkYES.SetActive(true);
 

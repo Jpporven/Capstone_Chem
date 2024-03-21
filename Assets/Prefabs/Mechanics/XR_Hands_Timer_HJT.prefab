@@ -1407,7 +1407,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3176908768356398735}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 00dfbd3eb227c024ba378bb977176da8, type: 3}
   m_Name: 
@@ -1499,6 +1499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hintTimer: 0
   hintCollectionDelay: 3
+  GuidedElementStep: 0
 --- !u!20 &9036981475131093094 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 827746704869620741, guid: 7415f28ae303170438edca1a74f04c2a,

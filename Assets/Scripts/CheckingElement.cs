@@ -18,11 +18,6 @@ public class CheckingElement : MonoBehaviour
             {
                 Debug.Log("Should Stop");
                 particle[i].StopParticle();
-                if (elements[i].gameObject.name == "Lithium1" && !triggerBool)
-                {
-                    IndicatorManager.GenerateNextIndicator(IndicatorManager.currentIndicator++);
-                    triggerBool = true;
-                }
                 
             }
         }
@@ -38,6 +33,12 @@ public class CheckingElement : MonoBehaviour
             {
                 Debug.Log("Should work");
                 particle[i].PlayParticle();
+
+                if (elements[i].gameObject.name == "Lithium1" && !triggerBool && IndicatorManager.currentIndicator > 3)
+                {
+                    IndicatorManager.GenerateNextIndicator(IndicatorManager.currentIndicator++);
+                    triggerBool = true;
+                }
             }
             
         }
