@@ -69,15 +69,6 @@ public class Deattaching : MonoBehaviour
         
     }
 
-    public void QuitGame()
-    {
-        Application.Quit();
-        print("Application Closed");
-    }
-
-    //public void RestartLevel()
-    //{
-    //    SceneManager.LoadScene(1);
-    //}
+    
     
 }
